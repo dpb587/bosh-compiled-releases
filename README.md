@@ -33,8 +33,6 @@ Find a compiled release...
       | curl -d@- https://localhost:8443/resolve
     {
       "compiled_release": {
-        "name": "openvpn",
-        "version": "4.0.0",
         "sha1": "19e79e45b690bc933b0ff5d9e54574f25d0899b9",
         "url": "https://s3-external-1.amazonaws.com/dpb587-bosh-release-openvpn-us-east-1/compiled_releases/openvpn/openvpn-4.0.0-on-ubuntu-trusty-stemcell-3421.11-compiled-1.20170630134749.0.tgz"
       }

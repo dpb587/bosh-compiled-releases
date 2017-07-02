@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -eu
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+cd "$DIR/../.."
+
+GOOS=linux GOARCH=amd64 go build -o "$DIR/bcr-repo-file-add" server/repository/importer/file_add.go
+
+cd "$DIR"
+
+docker build -t dpb587/bosh-compiled-releases:master-main .

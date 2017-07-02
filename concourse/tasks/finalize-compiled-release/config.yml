@@ -1,0 +1,22 @@
+platform: linux
+image_resource:
+  type: docker-image
+  source:
+    repository: dpb587/bosh-compiled-releases
+    tag: master-main
+inputs:
+  - name: repo
+  - name: source-release
+  - name: compiled-release
+outputs:
+  - name: repo
+    path: repo-output
+run:
+  path: repo/concourse/tasks/finalize-compiled-release/execute.sh
+params:
+  repository: ~
+  s3_access_key: ~
+  s3_secret_key: ~
+  git_commit_message: finalize-compiled-release
+  git_user_email: concourse.ci@localhost
+  git_user_name: Concourse

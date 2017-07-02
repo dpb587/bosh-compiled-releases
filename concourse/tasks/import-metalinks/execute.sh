@@ -1,8 +1,12 @@
 #!/bin/bash
 
-set -eu
+set -eu -o pipefail
 
-release_dir="$1"
+release_dir="$PWD/release"
+
+git clone --quiet "file://$PWD/repo" repo-output
+
+cd repo-output
 
 for compiled_metalink in $( find "$release_dir/compiled_releases" -name '*.meta4' ); do
   release_name="$( basename "$( dirname "$compiled_metalink" )" )"
@@ -17,8 +21,8 @@ for compiled_metalink in $( find "$release_dir/compiled_releases" -name '*.meta4
   source_metalink="$release_dir/releases/$release_name/$release_name-$release_version.meta4"
   source_digest="$( meta4 file-hash --metalink "$source_metalink" sha-1 )"
 
-  go run server/repository/importer/file_add.go \
-    "data/$release_name/$release_version.json" \
+  bcr-repo-file-add \
+    "data/$repository/bcr.json" \
     "$release_name" \
     "$release_version" \
     "$source_digest" \
@@ -27,3 +31,17 @@ for compiled_metalink in $( find "$release_dir/compiled_releases" -name '*.meta4
     "$compiled_digest" \
     "$compiled_url"
 done
+
+if [[ -z "$( git status --porcelain )" ]]; then
+  exit
+fi
+
+git config --global user.email "$git_user_email"
+git config --global user.name "$git_user_name"
+
+export GIT_COMMITTER_NAME="Concourse"
+export GIT_COMMITTER_EMAIL="concourse.ci@localhost"
+
+git add .
+
+git commit -m "$git_commit_message"
