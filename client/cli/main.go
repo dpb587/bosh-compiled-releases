@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	yaml "gopkg.in/yaml.v2"
+	"github.com/dpb587/bosh-compiled-releases/server/api"
 
-	"github.com/dpb587/bosh-compiled-releases/api"
+	yaml "gopkg.in/yaml.v2"
 )
 
 func main() {
