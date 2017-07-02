@@ -17,8 +17,6 @@ type ResolveResponse struct {
 }
 
 type ResolveResponseCompiledRelease struct {
-	Name    string `json:"name"`
-	Version string `json:"version"`
-	Sha1    string `json:"sha1"`
-	URL     string `json:"url"`
+	Sha1 string `json:"sha1"`
+	URL  string `json:"url"`
 }

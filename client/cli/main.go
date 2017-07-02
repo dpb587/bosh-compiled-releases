@@ -119,10 +119,6 @@ func main() {
 			log.Fatal(err)
 		}
 
-		if resolved.CompiledRelease.Version == "" {
-			continue
-		}
-
 		release["url"] = resolved.CompiledRelease.URL
 		release["sha1"] = resolved.CompiledRelease.Sha1
 
