@@ -1,0 +1,33 @@
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <release xmlns="https://dpb587.github.io/bosh-compiled-release/schema-0.1.0.xsd">
+    <name>openvpn</name>
+    <metalink xmlns="urn:ietf:params:xml:ns:metalink">
+      <file name="openvpn-3.1.0.tgz">
+        <hash type="md5">d49c67ced2a5284f5aa651be14e9b83d</hash>
+        <hash type="sha-1">2c5a5ba2b46b56ef1e9141369a0cdd672d9c61c5</hash>
+        <hash type="sha-256">7767db16152b2c9e1a3a675b713ac2398ef6450f12fa5287b596f99233411bb3</hash>
+        <hash type="sha-512">eb0658285ce8af9bf52ea16a96c21c34613d3e910f61d9b681bc0feab6004ba0298234a94a1baf4fbf98128d6fdc46ad2aff50656c573519d0d961f2d620f1a7</hash>
+        <size>7134160</size>
+        <url>https://s3.amazonaws.com/dpb587-bosh-release-openvpn-us-east-1/releases/openvpn-3.1.0.tgz</url>
+        <version>3.1.0</version>
+      </file>
+      <generator>metalink.dpb587.github.io/0.0.0</generator>
+      <published>2016-12-01T09:09:35Z</published>
+    </metalink>
+  </release>
+  <stemcell xmlns="https://dpb587.github.io/bosh-compiled-release/schema-0.1.0.xsd">
+    <os>ubuntu-trusty</os>
+    <version>3312.5</version>
+  </stemcell>
+  <file name="openvpn-3.1.0-on-ubuntu-trusty-stemcell-3312.5.tgz">
+    <hash type="md5">7595cd324637952730641d4a89d4eee2</hash>
+    <hash type="sha-1">48ef6934ccbdc09d78b1cefc51cb00606a5a9a23</hash>
+    <hash type="sha-256">df32e6b5b18ec0dbb5632389948448b1d5e6a5d2d895eab81168e22d08f4e9f8</hash>
+    <hash type="sha-512">7db5f9dae44cf60dc74541a916a33755f380a41e33b0a89aa5acc8fbcdc6e7ca3cef04a3774c2c3122fe621716290ea8c34bf9e754d2e4e306d6bde7e63c122b</hash>
+    <size>5889232</size>
+    <url>https://s3.amazonaws.com/dpb587-bosh-release-openvpn-us-east-1/compiled_releases/openvpn-3.1.0-on-ubuntu-trusty-stemcell-3312.5-compiled-1.20161202173533.0.tgz</url>
+    <version>3.1.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2016-12-02T17:35:33Z</published>
+</metalink>

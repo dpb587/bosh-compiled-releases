@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "FnR1zvUvK6aui2XELTqvuhY/T4g=",
+			"path": "github.com/cloudfoundry/bosh-utils/errors",
+			"revision": "5e02bdb941a18661d6f744cae4cb9d98ccf75f54",
+			"revisionTime": "2017-07-01T00:55:44Z"
+		},
+		{
+			"checksumSHA1": "lMBj2DzU2EGxf/fWXk9ZOrWIips=",
+			"path": "github.com/dpb587/metalink",
+			"revision": "f95a2c6bb41085e555134385a90a69817c1c9f07",
+			"revisionTime": "2017-06-11T10:24:13Z"
+		},
+		{
+			"checksumSHA1": "fALlQNY1fM99NesfLJ50KguWsio=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b",
+			"revisionTime": "2017-04-07T17:21:22Z"
+		}
+	],
+	"rootPath": "github.com/dpb587/bosh-compiled-releases"
+}
