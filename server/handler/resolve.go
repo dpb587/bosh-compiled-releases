@@ -45,7 +45,7 @@ func (h resolve) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(400)
 		w.Write([]byte(err.Error()))
 
-		logger.WithField("response.status", 400).Warn(err)
+		logger.WithField("response.status", 400).Warn("bad request body: %s", err)
 
 		return
 	}
@@ -57,7 +57,7 @@ func (h resolve) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(400)
 		w.Write([]byte(err.Error()))
 
-		logger.WithField("response.status", 400).Warn(err)
+		logger.WithField("response.status", 400).Warnf("bad request body data: %s", err)
 
 		return
 	}
@@ -85,7 +85,7 @@ func (h resolve) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(500)
 		w.Write([]byte(err.Error()))
 
-		logger.WithField("response.status", 500).Error(err)
+		logger.WithField("response.status", 500).Errorf("finding compiled releases: %s", err)
 
 		return
 	} else if compiledRelease == nil {

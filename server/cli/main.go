@@ -31,13 +31,13 @@ func main() {
 		}
 	}
 
-	logger.Infof("Repository loaded with %d entries", len(repo))
+	logger.Infof("loaded %d compiled releases", len(repo))
 
 	http.HandleFunc("/resolve", handler.NewResolve(logger, repo).ServeHTTP)
 
 	logger.WithFields(logrus.Fields{
 		"server.local_addr": "127.0.0.1:12345",
-	}).Info("Server is ready")
+	}).Info("server is ready")
 
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
