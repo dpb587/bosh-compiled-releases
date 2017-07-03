@@ -65,6 +65,198 @@
       ]
     },
     {
+      "name": "bosh-io-concourse-concourse-ubuntu-trusty",
+      "serial_groups": [
+        "compiler"
+      ],
+      "plan": [
+        {
+          "aggregate": [
+            {
+              "get": "release",
+              "resource": "bosh-io-concourse-concourse",
+              "trigger": true
+            },
+            {
+              "get": "stemcell",
+              resource: "ubuntu-trusty",
+              trigger: true
+            }
+          ]
+        },
+        {
+          "get": "release-compiler"
+        },
+        {
+          "task": "compile-release",
+          "file": "release-compiler/concourse/execute-local-bosh.yml",
+          "privileged": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "finalize-compiled-release",
+          "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
+          "params": {
+            "repository": "github.com/concourse/concourse",
+            "s3_host": "((s3_host))",
+            "s3_bucket": "((s3_bucket))",
+            "s3_access_key": "((s3_access_key))",
+            "s3_secret_key": "((s3_secret_key))",
+            "git_commit_message": "concourse: add compiled release",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "task": "import-metalinks",
+          "file": "repo/concourse/tasks/import-metalinks/config.yml",
+          "params": {
+            "repository": "github.com/concourse/concourse",
+            "git_commit_message": "concourse: update bcr.json",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bosh-io-cloudfoundry-garden-runc-release-ubuntu-trusty",
+      "serial_groups": [
+        "compiler"
+      ],
+      "plan": [
+        {
+          "aggregate": [
+            {
+              "get": "release",
+              "resource": "bosh-io-cloudfoundry-garden-runc-release",
+              "trigger": true
+            },
+            {
+              "get": "stemcell",
+              resource: "ubuntu-trusty",
+              trigger: true
+            }
+          ]
+        },
+        {
+          "get": "release-compiler"
+        },
+        {
+          "task": "compile-release",
+          "file": "release-compiler/concourse/execute-local-bosh.yml",
+          "privileged": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "finalize-compiled-release",
+          "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/garden-runc-release",
+            "s3_host": "((s3_host))",
+            "s3_bucket": "((s3_bucket))",
+            "s3_access_key": "((s3_access_key))",
+            "s3_secret_key": "((s3_secret_key))",
+            "git_commit_message": "garden-runc: add compiled release",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "task": "import-metalinks",
+          "file": "repo/concourse/tasks/import-metalinks/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/garden-runc-release",
+            "git_commit_message": "garden-runc: update bcr.json",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bosh-io-cloudfoundry-uaa-release-ubuntu-trusty",
+      "serial_groups": [
+        "compiler"
+      ],
+      "plan": [
+        {
+          "aggregate": [
+            {
+              "get": "release",
+              "resource": "bosh-io-cloudfoundry-uaa-release",
+              "trigger": true
+            },
+            {
+              "get": "stemcell",
+              resource: "ubuntu-trusty",
+              trigger: true
+            }
+          ]
+        },
+        {
+          "get": "release-compiler"
+        },
+        {
+          "task": "compile-release",
+          "file": "release-compiler/concourse/execute-local-bosh.yml",
+          "privileged": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "finalize-compiled-release",
+          "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/uaa-release",
+            "s3_host": "((s3_host))",
+            "s3_bucket": "((s3_bucket))",
+            "s3_access_key": "((s3_access_key))",
+            "s3_secret_key": "((s3_secret_key))",
+            "git_commit_message": "uaa: add compiled release",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "task": "import-metalinks",
+          "file": "repo/concourse/tasks/import-metalinks/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/uaa-release",
+            "git_commit_message": "uaa: update bcr.json",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    },
+    {
       "name": "github-dpb587-openvpn-bosh-release",
       "plan": [
         {
@@ -131,6 +323,27 @@
       "type": "bosh-io-release",
       "source": {
         "repository": "cloudfoundry/bosh"
+      }
+    },
+    {
+      "name": "bosh-io-concourse-concourse",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "concourse/concourse"
+      }
+    },
+    {
+      "name": "bosh-io-cloudfoundry-garden-runc-release",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "cloudfoundry/garden-runc-release"
+      }
+    },
+    {
+      "name": "bosh-io-cloudfoundry-uaa-release",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "cloudfoundry/uaa-release"
       }
     }
   ],

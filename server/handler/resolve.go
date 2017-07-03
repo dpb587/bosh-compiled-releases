@@ -31,7 +31,7 @@ func (h resolve) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		"request.uri":         r.RequestURI,
 	})
 
-	if r.Method != "POST" {
+	if r.Method != "GET" {
 		w.WriteHeader(405)
 		w.Write([]byte("method not allowed"))
 

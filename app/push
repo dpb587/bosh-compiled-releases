@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+cd "$DIR/.."
+
+GOOS=linux GOARCH=amd64 go build -o "$DIR/server" server/cli/main.go
+
+find data -name bcr.json | xargs cat > "$DIR/bcr.json"
+
+cd "$DIR"
+
+exec cf push -b https://github.com/cloudfoundry/binary-buildpack.git -c './server bcr.json' -i 1 -m 64M -k 32M "$@"

@@ -15,7 +15,7 @@ import (
 func main() {
 	logger := logrus.New()
 	logger.Level = logrus.DebugLevel
-	// logger.Formatter = &logrus.JSONFormatter{}
+	logger.Formatter = &logrus.JSONFormatter{}
 	logger.Out = os.Stdout
 
 	files, err := filepath.Glob(os.Args[1])

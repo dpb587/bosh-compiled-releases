@@ -100,7 +100,12 @@ func main() {
 			log.Fatal(err)
 		}
 
-		res, err := http.Post(fmt.Sprintf("%s/resolve", os.Args[1]), "application/json", strings.NewReader(string(wBytes)))
+		req, err := http.NewRequest("GET", fmt.Sprintf("%s/resolve", os.Args[1]), strings.NewReader(string(wBytes)))
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		res, err := http.DefaultClient.Do(req)
 		if err != nil {
 			log.Fatal(err)
 		} else if res.StatusCode != 200 {
