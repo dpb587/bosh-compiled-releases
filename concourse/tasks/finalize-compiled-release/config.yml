@@ -15,6 +15,8 @@ run:
   path: repo/concourse/tasks/finalize-compiled-release/execute.sh
 params:
   repository: ~
+  s3_host: ~
+  s3_bucket: ~
   s3_access_key: ~
   s3_secret_key: ~
   git_commit_message: finalize-compiled-release
