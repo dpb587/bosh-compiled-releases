@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -35,9 +36,11 @@ func main() {
 
 	http.HandleFunc("/resolve", handler.NewResolve(logger, repo).ServeHTTP)
 
+	bind := fmt.Sprintf("%s:%s", "0.0.0.0", os.Getenv("PORT"))
+
 	logger.WithFields(logrus.Fields{
-		"server.local_addr": "127.0.0.1:12345",
+		"server.local_addr": bind,
 	}).Info("server is ready")
 
-	log.Fatal(http.ListenAndServe(":12345", nil))
+	log.Fatal(http.ListenAndServe(bind, nil))
 }
