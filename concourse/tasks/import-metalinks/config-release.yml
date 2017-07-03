@@ -6,6 +6,7 @@ image_resource:
     tag: master-main
 inputs:
   - name: repo
+  - name: release
 outputs:
   - name: repo
     path: repo-output
@@ -13,6 +14,7 @@ run:
   path: repo/concourse/tasks/import-metalinks/execute.sh
 params:
   repository: ~
+  release_dir: ../release
   git_commit_message: import-metalinks
   git_user_email: concourse.ci@localhost
   git_user_name: Concourse
