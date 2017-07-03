@@ -1,0 +1,1 @@
+{"name":"bosh","version":"262.2","source":{"digest":"592569921af54b131803ca403cb25f2510497f29"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"2cab30680d0773288f4efeee9994ee72f0cd07f9","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/bosh/11b2a34230ad35633843a8ef9db2b63cb101ce2b0381c83977cf9d276f9b9634"}}
