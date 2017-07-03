@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "name": "github-dpb587-openvpn-bosh-release-ubuntu-trusty",
+      "name": "bosh-io-cloudfoundry-bosh-ubuntu-trusty",
       "serial_groups": [
         "compiler"
       ],
@@ -10,7 +10,7 @@
           "aggregate": [
             {
               "get": "release",
-              "resource": "github-dpb587-openvpn-bosh-release-metalink",
+              "resource": "bosh-io-cloudfoundry-bosh",
               "trigger": true
             },
             {
@@ -35,12 +35,12 @@
           "task": "finalize-compiled-release",
           "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
           "params": {
-            "repository": "github.com/dpb587/openvpn-bosh-release",
+            "repository": "github.com/cloudfoundry/bosh",
             "s3_host": "((s3_host))",
             "s3_bucket": "((s3_bucket))",
             "s3_access_key": "((s3_access_key))",
             "s3_secret_key": "((s3_secret_key))",
-            "git_commit_message": "openvpn: add compiled release",
+            "git_commit_message": "bosh: add compiled release",
             "git_user_email": "((maintainer_email))",
             "git_user_name": "((maintainer_name))"
           }
@@ -49,8 +49,8 @@
           "task": "import-metalinks",
           "file": "repo/concourse/tasks/import-metalinks/config.yml",
           "params": {
-            "repository": "github.com/dpb587/openvpn-bosh-release",
-            "git_commit_message": "openvpn: update bcr.json",
+            "repository": "github.com/cloudfoundry/bosh",
+            "git_commit_message": "bosh: update bcr.json",
             "git_user_email": "((maintainer_email))",
             "git_user_name": "((maintainer_name))"
           }
@@ -120,17 +120,17 @@
       }
     },
     {
-      "name": "github-dpb587-openvpn-bosh-release-metalink",
-      "type": "metalink-repository",
-      "source": {
-        "uri": "https://dpb587.github.io/upstream-blob-mirror/repository/bosh.io/stemcell/bosh-warden-boshlite-ubuntu-trusty-go_agent/index.xml"
-      }
-    },
-    {
       "name": "github-dpb587-openvpn-bosh-release",
       "type": "git",
       "source": {
         "uri": "https://github.com/dpb587/openvpn-bosh-release.git"
+      }
+    },
+    {
+      "name": "bosh-io-cloudfoundry-bosh",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "cloudfoundry/bosh"
       }
     }
   ],

@@ -17,7 +17,7 @@ cd repo-output/
 # source release
 #
 
-tarball_real=../source-release/release.tgz
+tarball_real=../release/release.tgz
 
 tar -xzf "$tarball_real" $( tar -tzf "$tarball_real" | grep release.MF$ )
 release_name=$( grep '^name:' release.MF | awk '{print $2}' | tr -d "\"'" )
@@ -33,7 +33,7 @@ mkdir -p "$( dirname "$metalink_path" )"
 meta4 create --metalink="$metalink_path"
 meta4 set-published --metalink="$metalink_path" "$( date -u +%Y-%m-%dT%H:%M:%SZ )"
 meta4 import-file --metalink="$metalink_path" --file="$tarball_nice" --version="$version" "$tarball_real"
-meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$( cat ../source-release/url )"
+meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$( cat ../release/url )"
 
 
 #

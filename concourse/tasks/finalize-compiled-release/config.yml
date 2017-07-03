@@ -6,7 +6,7 @@ image_resource:
     tag: master-main
 inputs:
   - name: repo
-  - name: source-release
+  - name: release
   - name: compiled-release
 outputs:
   - name: repo
