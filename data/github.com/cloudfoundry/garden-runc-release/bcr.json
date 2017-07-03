@@ -1,0 +1,1 @@
+{"name":"garden-runc","version":"1.9.0","source":{"digest":"77bfe8bdb2c3daec5b40f5116a6216badabd196c"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"57748713775a9c87d7989ef14776a1bd3cf9d1be","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/garden-runc/d8f3edde63cc66ab50bd7285a5fb5369e909f150ccd4e1f3fed9929583409a49"}}
