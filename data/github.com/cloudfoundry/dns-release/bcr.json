@@ -1,0 +1,1 @@
+{"name":"dns","version":"0.0.2","source":{"digest":"b075b0872363a9c6711b3832404edbae28ced05e"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"4ce5c679ba1b6b5a79fad4f1229948681d61e12f","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/dns/d8e350a3bf5ea5d0243a00c73239b541037a25b4343c96d0d4ef37ab3628fcdf"}}
