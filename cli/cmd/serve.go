@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 
 	"github.com/dpb587/bosh-compiled-releases/cli/repository"
-	"github.com/dpb587/bosh-compiled-releases/cli/server/handler"
+	"github.com/dpb587/bosh-compiled-releases/cli/server/v1"
 	"github.com/jessevdk/go-flags"
 	"github.com/sirupsen/logrus"
 )
@@ -40,31 +40,42 @@ func (c Serve) Execute(args []string) error {
 		}
 
 		for _, file := range files {
-			logger.Debugf("adding local repository: %s", file)
+			logger.Infof("using local repository: %s", file)
 
 			repo.Attach(repository.NewFileRepository(file))
 		}
 	}
 
 	for _, server := range c.Server {
-		logger.Debugf("adding remote repository: %s", server)
+		logger.Infof("using remote repository: %s", server)
 
 		repo.Attach(repository.NewServerRepository(server))
 	}
 
 	// start
 
-	http.HandleFunc("/resolve", handler.NewResolve(logger, repo).ServeHTTP)
+	http.Handle("/v1/resolve", v1.NewResolve(logger, repo))
 
 	for _, file := range c.StaticAsset {
-		http.HandleFunc(fmt.Sprintf("/asset/%s", filepath.Base(file)), handler.NewStaticAsset(logger, file).ServeHTTP)
+		http.Handle(fmt.Sprintf("/asset/%s", filepath.Base(file)), v1.NewStaticAsset(logger, file))
 	}
+
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		logger := logger.WithFields(logrus.Fields{
+			"request.remote_addr": r.RemoteAddr,
+			"request.method":      r.Method,
+			"request.uri":         r.RequestURI,
+		})
+
+		http.Error(w, fmt.Sprintf("404 Not Found"), http.StatusNotFound)
+		logger.WithField("response.status", http.StatusNotFound).Debug("not found")
+	})
 
 	bind := fmt.Sprintf("%s:%s", c.BindHost, c.BindPort)
 
 	logger.WithFields(logrus.Fields{
 		"server.local_addr": bind,
-	}).Info("server is ready")
+	}).Print("server is ready")
 
 	log.Fatal(http.ListenAndServe(bind, nil))
 

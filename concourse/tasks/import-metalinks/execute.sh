@@ -21,7 +21,7 @@ for compiled_metalink in $( find "$release_dir/compiled_releases" -name '*.meta4
   source_metalink="$release_dir/releases/$release_name/$release_name-$release_version.meta4"
   source_digest="$( meta4 file-hash --metalink "$source_metalink" sha-1 )"
 
-  bcr-repo-file-add \
+  bcr file-add-compiled-release \
     "data/$repository/bcr.json" \
     "$release_name" \
     "$release_version" \

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dpb587/bosh-compiled-releases/cli/server/api"
+	v1 "github.com/dpb587/bosh-compiled-releases/cli/server/v1/model"
 )
 
 type ServerRepository interface {
@@ -28,11 +28,11 @@ func NewServerRepository(endpoint string) ServerRepository {
 }
 
 func (r *serverRepository) Find(name string, version string, source SourceRelease, stemcell CompiledReleaseStemcell) (*CompiledReleaseTarball, error) {
-	wBytes, err := json.Marshal(api.ResolveRequest{
+	wBytes, err := json.Marshal(v1.ResolveRequest{
 		Name:    name,
 		Version: version,
 		Sha1:    source.Digest,
-		Stemcell: api.ResolveRequestStemcell{
+		Stemcell: v1.ResolveRequestStemcell{
 			OS:      stemcell.OS,
 			Version: stemcell.Version,
 		},
@@ -41,7 +41,7 @@ func (r *serverRepository) Find(name string, version string, source SourceReleas
 		log.Fatal(err)
 	}
 
-	req, err := http.NewRequest("GET", fmt.Sprintf("%s/resolve", r.endpoint), strings.NewReader(string(wBytes)))
+	req, err := http.NewRequest("GET", fmt.Sprintf("%s/v1/resolve", r.endpoint), strings.NewReader(string(wBytes)))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -58,7 +58,7 @@ func (r *serverRepository) Find(name string, version string, source SourceReleas
 		log.Fatal(err)
 	}
 
-	var resolved api.ResolveResponse
+	var resolved v1.ResolveResponse
 
 	err = json.Unmarshal(rBytes, &resolved)
 	if err != nil {

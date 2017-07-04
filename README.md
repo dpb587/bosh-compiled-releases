@@ -1,26 +1,53 @@
-## Client
+# CLI
 
-Use the client to resolve compiled releases from a compilation server...
+## `rewrite-manifest`
 
-    $ bosh-bcr https://dpb587-bosh-compiled-releases.cfapps.io manifest.yml
+The `rewrite-manifest` command converts source release references into compiled release references by querying a remote server or local index. The updated manifest is sent to standard output.
 
-Inline, it might look like...
+    $ bcr rewrite-manifest --server=https://dpb587-bosh-compiled-releases.cfapps.io manifest.yml
 
-    $ bosh deploy <( bosh-bcr https://dpb587-bosh-compiled-releases.cfapps.io manifest.yml )
-
-The commands make several assumptions...
+The command make several assumptions...
 
  * `releases` - each release must include `name`, `sha1`, `url`, and `version`
  * `stemcells`/`resource_pools.stemcell` - each stemcell must include `os` and `version`
 
 
-## Server
+## `serve`
 
-Use the server to provide a compilation lookup server...
+The `serve` command starts a simple HTTP server which can be queried to resolve source releases to compiled releases based on a locally-accessible indices.
 
-    $ PORT=8080 go run server/cli/main.go "data/*/*/*/bcr.json"
+    $ bcr serve --local=data/*/*/*/bcr.json*
 
-Find a compiled release...
+
+### API
+
+
+#### GET `/v1/resolve`
+
+Convert a source release reference to a compiled release reference.
+
+Request Body (`application/json`)
+
+    {
+      "name": string,
+      "version": string,
+      "sha1": string,
+      "stemcell": {
+        "os": string,
+        "version": string
+      }
+    }
+
+Response Body (`application/json`)
+
+    {
+      "compiled_release": {
+        "sha1": string,
+        "url": string
+      }
+    }
+
+Example
 
     $ echo '{"name":"openvpn","version":"4.0.0","sha1":"cc14b757e5ac9af99840167c10114845b51da41d","stemcell":{"os":"ubuntu-trusty","version":"3421.11"}}' \
       | curl -XGET -d@- http://localhost:8080/resolve
@@ -32,11 +59,13 @@ Find a compiled release...
     }
 
 
-## Pipeline
+# Deployment
 
-    fly -t dpb587-nightwatch-aws-use1 sp -p dpb587:bosh-compiled-releases -c <( bosh int -l concourse/secrets.yml concourse/pipeline.yml )
+## Concourse
+
+    fly set-pipeline -p dpb587:bosh-compiled-releases -c <( bosh int -l concourse/secrets.yml concourse/pipeline.yml )
 
 
-## App
+## Cloud Foundry App
 
     ./app/push dpb587-bosh-compiled-releases

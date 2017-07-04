@@ -1,4 +1,4 @@
-package api
+package model
 
 type ResolveRequest struct {
 	Name     string                 `json:"name"`

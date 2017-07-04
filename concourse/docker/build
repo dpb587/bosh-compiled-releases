@@ -6,7 +6,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd "$DIR/../.."
 
-GOOS=linux GOARCH=amd64 go build -o "$DIR/bcr-repo-file-add" server/repository/importer/file_add.go
+GOOS=linux GOARCH=amd64 go build -o "$DIR/bcr" cli/main.go
 
 cd "$DIR"
 

@@ -12,6 +12,7 @@ func main() {
 
 	parser.AddCommand("serve", "Start an HTTP server to answer compiled release lookups", "", &cmd.Serve{})
 	parser.AddCommand("rewrite-manifest", "Rewrite a manifest to reference compiled releases", "", &cmd.RewriteManifest{})
+	parser.AddCommand("file-add-compiled-release", "Add a compiled release reference to a file repository", "", &cmd.FileAddCompiledRelease{})
 
 	if _, err := parser.Parse(); err != nil {
 		if flagsErr, ok := err.(*flags.Error); ok && flagsErr.Type == flags.ErrHelp {

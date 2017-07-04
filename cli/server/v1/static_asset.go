@@ -1,4 +1,4 @@
-package handler
+package v1
 
 import (
 	"net/http"
@@ -13,7 +13,7 @@ type staticAsset struct {
 
 var _ http.Handler = staticAsset{}
 
-func NewStaticAsset(logger logrus.FieldLogger, asset string) staticAsset {
+func NewStaticAsset(logger logrus.FieldLogger, asset string) http.Handler {
 	return staticAsset{
 		asset:  asset,
 		logger: logger,

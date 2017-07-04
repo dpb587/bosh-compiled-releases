@@ -18,12 +18,12 @@ type RewriteManifest struct {
 	Server []string `long:"server" description:"Remote server to query"`
 	Local  []string `long:"local" description:"Local path to query"`
 
-	Args RewriteManifestArgs `positional-args:"true"`
+	Args rewriteManifestArgs `positional-args:"true" required:"true"`
 }
 
 var _ flags.Commander = RewriteManifest{}
 
-type RewriteManifestArgs struct {
+type rewriteManifestArgs struct {
 	Manifest string `positional-arg-name:"MANIFEST-PATH" description:"Manifest path to parse"`
 }
 
