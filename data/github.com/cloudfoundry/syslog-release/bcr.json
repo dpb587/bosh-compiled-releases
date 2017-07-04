@@ -1,0 +1,1 @@
+{"name":"syslog","version":"11","source":{"digest":"332ac15609b220a3fdf5efad0e0aa069d8235788"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"0b1f5879d5757c563e44dacd41a1adacdfb477c0","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/syslog/e0835fff5fa8eef5e0624846425b39611cea67b1a17724859e75dcdbcc184c37"}}
