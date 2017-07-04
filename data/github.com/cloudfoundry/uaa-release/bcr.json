@@ -1,0 +1,1 @@
+{"name":"uaa","version":"41","source":{"digest":"a1b1818fb4f5e722a6c3073d364ce4c400e5fb31"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"66d9931cbb34f1cafedcc39e11fa0b458f8cc791","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/uaa/61da209a3fec008fe0d61f416be632e8b875761780364db2086284cc0fb16d3c"}}
