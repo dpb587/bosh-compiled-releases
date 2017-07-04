@@ -19,6 +19,8 @@ type Serve struct {
 
 	Server []string `long:"server" description:"Remote server to query"`
 	Local  []string `long:"local" description:"Local path to query"`
+
+	StaticAsset []string `long:"static-asset" description:"Serve a public asset for download"`
 }
 
 var _ flags.Commander = Serve{}
@@ -53,6 +55,10 @@ func (c Serve) Execute(args []string) error {
 	// start
 
 	http.HandleFunc("/resolve", handler.NewResolve(logger, repo).ServeHTTP)
+
+	for _, file := range c.StaticAsset {
+		http.HandleFunc(fmt.Sprintf("/asset/%s", filepath.Base(file)), handler.NewStaticAsset(logger, file).ServeHTTP)
+	}
 
 	bind := fmt.Sprintf("%s:%s", c.BindHost, c.BindPort)
 
