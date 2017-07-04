@@ -257,6 +257,198 @@
       ]
     },
     {
+      "name": "bosh-io-cloudfoundry-community-docker-registry-boshrelease-ubuntu-trusty",
+      "serial_groups": [
+        "compiler"
+      ],
+      "plan": [
+        {
+          "aggregate": [
+            {
+              "get": "release",
+              "resource": "bosh-io-cloudfoundry-community-docker-registry-boshrelease",
+              "trigger": true
+            },
+            {
+              "get": "stemcell",
+              resource: "ubuntu-trusty",
+              trigger: true
+            }
+          ]
+        },
+        {
+          "get": "release-compiler"
+        },
+        {
+          "task": "compile-release",
+          "file": "release-compiler/concourse/execute-local-bosh.yml",
+          "privileged": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "finalize-compiled-release",
+          "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry-community/docker-registry-boshrelease",
+            "s3_host": "((s3_host))",
+            "s3_bucket": "((s3_bucket))",
+            "s3_access_key": "((s3_access_key))",
+            "s3_secret_key": "((s3_secret_key))",
+            "git_commit_message": "docker-registry: add compiled release",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "task": "import-metalinks",
+          "file": "repo/concourse/tasks/import-metalinks/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry-community/docker-registry-boshrelease",
+            "git_commit_message": "docker-registry: update bcr.json",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bosh-io-cloudfoundry-syslog-release-ubuntu-trusty",
+      "serial_groups": [
+        "compiler"
+      ],
+      "plan": [
+        {
+          "aggregate": [
+            {
+              "get": "release",
+              "resource": "bosh-io-cloudfoundry-syslog-release",
+              "trigger": true
+            },
+            {
+              "get": "stemcell",
+              resource: "ubuntu-trusty",
+              trigger: true
+            }
+          ]
+        },
+        {
+          "get": "release-compiler"
+        },
+        {
+          "task": "compile-release",
+          "file": "release-compiler/concourse/execute-local-bosh.yml",
+          "privileged": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "finalize-compiled-release",
+          "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/syslog-release",
+            "s3_host": "((s3_host))",
+            "s3_bucket": "((s3_bucket))",
+            "s3_access_key": "((s3_access_key))",
+            "s3_secret_key": "((s3_secret_key))",
+            "git_commit_message": "syslog: add compiled release",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "task": "import-metalinks",
+          "file": "repo/concourse/tasks/import-metalinks/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/syslog-release",
+            "git_commit_message": "syslog: update bcr.json",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bosh-io-cloudfoundry-dns-release-ubuntu-trusty",
+      "serial_groups": [
+        "compiler"
+      ],
+      "plan": [
+        {
+          "aggregate": [
+            {
+              "get": "release",
+              "resource": "bosh-io-cloudfoundry-dns-release",
+              "trigger": true
+            },
+            {
+              "get": "stemcell",
+              resource: "ubuntu-trusty",
+              trigger: true
+            }
+          ]
+        },
+        {
+          "get": "release-compiler"
+        },
+        {
+          "task": "compile-release",
+          "file": "release-compiler/concourse/execute-local-bosh.yml",
+          "privileged": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "finalize-compiled-release",
+          "file": "repo/concourse/tasks/finalize-compiled-release/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/dns-release",
+            "s3_host": "((s3_host))",
+            "s3_bucket": "((s3_bucket))",
+            "s3_access_key": "((s3_access_key))",
+            "s3_secret_key": "((s3_secret_key))",
+            "git_commit_message": "dns: add compiled release",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "task": "import-metalinks",
+          "file": "repo/concourse/tasks/import-metalinks/config.yml",
+          "params": {
+            "repository": "github.com/cloudfoundry/dns-release",
+            "git_commit_message": "dns: update bcr.json",
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    },
+    {
       "name": "github-dpb587-openvpn-bosh-release",
       "plan": [
         {
@@ -344,6 +536,27 @@
       "type": "bosh-io-release",
       "source": {
         "repository": "cloudfoundry/uaa-release"
+      }
+    },
+    {
+      "name": "bosh-io-cloudfoundry-community-docker-registry-boshrelease",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "cloudfoundry-community/docker-registry-boshrelease"
+      }
+    },
+    {
+      "name": "bosh-io-cloudfoundry-syslog-release",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "cloudfoundry/syslog-release"
+      }
+    },
+    {
+      "name": "bosh-io-cloudfoundry-dns-release",
+      "type": "bosh-io-release",
+      "source": {
+        "repository": "cloudfoundry/dns-release"
       }
     }
   ],

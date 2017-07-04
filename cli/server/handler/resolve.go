@@ -5,19 +5,19 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/dpb587/bosh-compiled-releases/server/api"
-	"github.com/dpb587/bosh-compiled-releases/server/repository"
+	"github.com/dpb587/bosh-compiled-releases/cli/repository"
+	"github.com/dpb587/bosh-compiled-releases/cli/server/api"
 	"github.com/sirupsen/logrus"
 )
 
 type resolve struct {
-	repo   repository.Repository
+	repo   repository.ReadableRepository
 	logger logrus.FieldLogger
 }
 
 var _ http.Handler = resolve{}
 
-func NewResolve(logger logrus.FieldLogger, repo repository.Repository) resolve {
+func NewResolve(logger logrus.FieldLogger, repo repository.ReadableRepository) resolve {
 	return resolve{
 		repo:   repo,
 		logger: logger,

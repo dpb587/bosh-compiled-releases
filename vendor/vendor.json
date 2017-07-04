@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "Oqx/4M+xDiB2ME3YkffeZmz/ohk=",
+			"path": "github.com/jessevdk/go-flags",
+			"revision": "5695738f733662da3e9afc2283bba6f3c879002d",
+			"revisionTime": "2017-05-21T21:21:05Z"
+		},
+		{
 			"checksumSHA1": "ZTHr6+y9dvqhSBTnct7kAYIi7BI=",
 			"path": "github.com/sirupsen/logrus",
 			"revision": "7dd06bf38e1e13df288d471a57d5adbac106be9e",

@@ -12,14 +12,9 @@ func main() {
 		log.Fatal("expected args: repository release-name release-version source-digest stemcell-os stemcell-version compiled-digest compiled-url")
 	}
 
-	repo := repository.Repository{}
+	repo := repository.NewFileRepository(os.Args[1])
 
-	err := repository.ImportFileRepository(&repo, os.Args[1])
-	if err != nil {
-		log.Fatal("importing file repository: ", err)
-	}
-
-	repo.Add(repository.CompiledRelease{
+	err := repo.Add(repository.CompiledRelease{
 		Name:    os.Args[2],
 		Version: os.Args[3],
 		Source: repository.SourceRelease{
@@ -34,8 +29,11 @@ func main() {
 			URL:    os.Args[8],
 		},
 	})
+	if err != nil {
+		log.Fatal("adding compiled release: ", err)
+	}
 
-	err = repository.ExportFileRepository(repo, os.Args[1])
+	err = repo.Save()
 	if err != nil {
 		log.Fatal("exporting file repository: ", err)
 	}

@@ -1,24 +1,55 @@
-package main
+package cmd
 
 import (
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
-	"net/http"
-	"os"
+	"path/filepath"
 	"strconv"
 	"strings"
 
-	"github.com/dpb587/bosh-compiled-releases/server/api"
-
 	yaml "gopkg.in/yaml.v2"
+
+	"github.com/dpb587/bosh-compiled-releases/cli/repository"
+	"github.com/jessevdk/go-flags"
 )
 
-func main() {
+type RewriteManifest struct {
+	Server []string `long:"server" description:"Remote server to query"`
+	Local  []string `long:"local" description:"Local path to query"`
+
+	Args RewriteManifestArgs `positional-args:"true"`
+}
+
+var _ flags.Commander = RewriteManifest{}
+
+type RewriteManifestArgs struct {
+	Manifest string `positional-arg-name:"MANIFEST-PATH" description:"Manifest path to parse"`
+}
+
+func (c RewriteManifest) Execute(args []string) error {
+	repo := repository.NewMultiRepository()
+
+	for _, local := range c.Local {
+		files, err := filepath.Glob(local)
+		if err != nil {
+			log.Fatal("globbing file repositories: ", err)
+		}
+
+		for _, file := range files {
+			repo.Attach(repository.NewFileRepository(file))
+		}
+	}
+
+	for _, server := range c.Server {
+		repo.Attach(repository.NewServerRepository(server))
+	}
+
+	// start
+
 	var manifest map[string]interface{}
 
-	bytes, err := ioutil.ReadFile(os.Args[2])
+	bytes, err := ioutil.ReadFile(c.Args.Manifest)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -87,45 +118,25 @@ func main() {
 			panic("unexpected type")
 		}
 
-		wBytes, err := json.Marshal(api.ResolveRequest{
-			Name:    release["name"].(string),
-			Version: version,
-			Sha1:    release["sha1"].(string),
-			Stemcell: api.ResolveRequestStemcell{
+		compiledRelease, err := repo.Find(
+			release["name"].(string),
+			version,
+			repository.SourceRelease{
+				Digest: release["sha1"].(string),
+			},
+			repository.CompiledReleaseStemcell{
 				OS:      stemcellOS,
 				Version: stemcellVersion,
 			},
-		})
+		)
 		if err != nil {
 			log.Fatal(err)
-		}
-
-		req, err := http.NewRequest("GET", fmt.Sprintf("%s/resolve", os.Args[1]), strings.NewReader(string(wBytes)))
-		if err != nil {
-			log.Fatal(err)
-		}
-
-		res, err := http.DefaultClient.Do(req)
-		if err != nil {
-			log.Fatal(err)
-		} else if res.StatusCode != 200 {
+		} else if compiledRelease == nil {
 			continue
 		}
 
-		rBytes, err := ioutil.ReadAll(res.Body)
-		if err != nil {
-			log.Fatal(err)
-		}
-
-		var resolved api.ResolveResponse
-
-		err = json.Unmarshal(rBytes, &resolved)
-		if err != nil {
-			log.Fatal(err)
-		}
-
-		release["url"] = resolved.CompiledRelease.URL
-		release["sha1"] = resolved.CompiledRelease.Sha1
+		release["url"] = compiledRelease.URL
+		release["sha1"] = compiledRelease.Digest
 
 		manifest["releases"].([]interface{})[releaseIdx] = release
 	}
@@ -136,4 +147,6 @@ func main() {
 	}
 
 	fmt.Println(string(manifestBytes))
+
+	return nil
 }
