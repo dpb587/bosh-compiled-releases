@@ -1,0 +1,59 @@
+include "./concourse/pipeline-helpers";
+
+{
+  "jobs": [
+    import_repo_release("github.com/dpb587/openvpn-bosh-release"),
+
+    compile_boshio_release("cloudfoundry/bosh"; "ubuntu-trusty"),
+    compile_boshio_release("concourse/concourse"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry/garden-runc-release"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry/uaa-release"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry-community/docker-registry-boshrelease"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry/syslog-release"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry/dns-release"; "ubuntu-trusty")
+  ],
+  "resources": [
+    {
+      "name": "repo",
+      "type": "git",
+      "source": {
+        "branch": "master",
+        "private_key": "((git_private_key))",
+        "uri": "git@github.com:dpb587/bosh-compiled-releases.git"
+      }
+    },
+    {
+      "name": "release-compiler",
+      "type": "git",
+      "source": {
+        "uri": "https://github.com/dpb587/bosh-release-compiler.git"
+      }
+    },
+    {
+      "name": "ubuntu-trusty",
+      "type": "metalink-repository",
+      "source": {
+        "uri": "https://dpb587.github.io/upstream-blob-mirror/repository/bosh.io/stemcell/bosh-warden-boshlite-ubuntu-trusty-go_agent/index.xml"
+      }
+    },
+
+    repo_release("github.com/dpb587/openvpn-bosh-release"; {"uri": "https://github.com/dpb587/openvpn-bosh-release.git"}),
+
+    boshio_release("cloudfoundry/bosh"),
+    boshio_release("concourse/concourse"),
+    boshio_release("cloudfoundry/garden-runc-release"),
+    boshio_release("cloudfoundry/uaa-release"),
+    boshio_release("cloudfoundry-community/docker-registry-boshrelease"),
+    boshio_release("cloudfoundry/syslog-release"),
+    boshio_release("cloudfoundry/dns-release")
+  ],
+  "resource_types": [
+    {
+      "name": "metalink-repository",
+      "type": "docker-image",
+      "source": {
+        "repository": "dpb587/metalink-repository-resource"
+      }
+    }
+  ]
+}
