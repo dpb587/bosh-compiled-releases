@@ -79,7 +79,7 @@ func (h resolve) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	)
 	if err != nil {
 		http.Error(w, fmt.Sprintf("500 Internal Server Error"), http.StatusInternalServerError)
-		logger.WithField("response.status", http.StatusInternalServerError).Errorf("finding compiled releases: %s", err)
+		logger.WithField("response.status", http.StatusInternalServerError).Errorf("finding compiled release: %s", err)
 
 		return
 	} else if compiledRelease == nil {
