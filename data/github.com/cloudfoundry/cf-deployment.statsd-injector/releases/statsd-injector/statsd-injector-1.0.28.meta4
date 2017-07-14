@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="statsd-injector-1.0.28.tgz">
+    <hash type="md5">77ed57fe694b98cfa7989eb2b78cbc29</hash>
+    <hash type="sha-256">f1d3915df71a72242d17d7a06eab84542e608942e4ea41bd5567714bc34ad164</hash>
+    <hash type="sha-512">40c898bfe2797a7a180d89398f3642ec8124d1025bec8987d5fe3380bc9a4df16a6d1e0250a00b87d36f0e631a3a756bbddf533e0808082f7fed506201240e32</hash>
+    <hash type="sha-1">655c86c44731fb88c10dc3628d77dfb8ebd9da26</hash>
+    <size>935</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/statsd-injector-release?v=1.0.28</url>
+    <version>1.0.28</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-14T00:18:37Z</published>
+</metalink>
