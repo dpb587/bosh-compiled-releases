@@ -1,0 +1,1 @@
+{"name":"cf-smoke-tests","version":"34","source":{"digest":"1f88a46976fa63c1fafdd57f3636619cbabfda72"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"f5b96040a4f79079815297c1b1c8f9b8b7a87603","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/cf-smoke-tests-34-ubuntu-trusty-3421.11-20170630-220759-58057376.tgz"}}
