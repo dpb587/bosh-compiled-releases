@@ -1,0 +1,1 @@
+{"name":"cf-networking","version":"1.1.0","source":{"digest":"2e3e25e3b1988afd6f7d2c20723ba54caa165b25"},"stemcell":{"os":"ubuntu-trusty","version":"3421.9"},"tarball":{"digest":"ccff9ecfbea612551292ccb4345c0386f1628d49","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/cf-networking-1.1.0-ubuntu-trusty-3421.9-20170630-002817-563738243.tgz"}}
