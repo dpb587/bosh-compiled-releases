@@ -1,0 +1,1 @@
+{"name":"nats","version":"19","source":{"digest":"2f49d69b4d2cabce7f0674f2a4a5ea3d2e8b83dc"},"stemcell":{"os":"ubuntu-trusty","version":"3421.9"},"tarball":{"digest":"70419e1015e1cc4fc610082be220e516f357412b","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/nats-19-ubuntu-trusty-3421.9-20170629-210443-29842381.tgz"}}
