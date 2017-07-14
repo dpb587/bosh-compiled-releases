@@ -79,7 +79,10 @@ include "./concourse/pipeline-helpers";
       "name": "cf-deployment",
       "type": "git",
       "source": {
-        "uri": "https://github.com/cloudfoundry/cf-deployment.git"
+        "uri": "https://github.com/cloudfoundry/cf-deployment.git",
+        "paths": [
+          "operations/use-compiled-releases.yml"
+        ]
       }
     }
   ],
