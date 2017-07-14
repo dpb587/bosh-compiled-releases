@@ -76,6 +76,11 @@ for release_name in $( grep name: ../compiled-releases.yml | cut -c9- ); do
 
   mkdir -p "$( dirname "$metalink_path" )"
 
+  if [ ! -e "$metalink_path" ]; then
+    # weird if they're rebuilding
+    rm "$metalink_path"
+  fi
+
   meta4 create --metalink="$metalink_path"
   meta4 set-published --metalink="$metalink_path" "$( date -u +%Y-%m-%dT%H:%M:%SZ )"
   meta4 import-file --metalink="$metalink_path" --file="$tarball_nice" --version="$release_version" "$tarball_real"
