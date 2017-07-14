@@ -69,4 +69,4 @@ export GIT_COMMITTER_EMAIL="concourse.ci@localhost"
 
 git add .
 
-git commit -m "$git_commit_message"
+git commit -m "$repository: add compiled release"

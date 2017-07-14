@@ -15,6 +15,5 @@ run:
 params:
   repository: ~
   release_dir: ../release
-  git_commit_message: import-metalinks
   git_user_email: concourse.ci@localhost
   git_user_name: Concourse

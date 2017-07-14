@@ -6,18 +6,12 @@ image_resource:
     tag: master-main
 inputs:
   - name: repo
-  - name: release
-  - name: compiled-release
+  - name: cf-deployment
 outputs:
   - name: repo
     path: repo-output
 run:
-  path: repo/concourse/tasks/finalize-compiled-release/execute.sh
+  path: repo/concourse/tasks/import-cf-deployment/execute.sh
 params:
-  repository: ~
-  s3_host: ~
-  s3_bucket: ~
-  s3_access_key: ~
-  s3_secret_key: ~
   git_user_email: concourse.ci@localhost
   git_user_name: Concourse

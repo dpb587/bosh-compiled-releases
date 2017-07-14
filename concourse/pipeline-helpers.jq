@@ -61,7 +61,6 @@ def compile_boshio_release($release; $stemcellref):
           "s3_bucket": "((s3_bucket))",
           "s3_access_key": "((s3_access_key))",
           "s3_secret_key": "((s3_secret_key))",
-          "git_commit_message": ("github.com/" + $release + ": add compiled release"),
           "git_user_email": "((maintainer_email))",
           "git_user_name": "((maintainer_name))"
         }
@@ -71,7 +70,6 @@ def compile_boshio_release($release; $stemcellref):
         "file": "repo/concourse/tasks/import-metalinks/config.yml",
         "params": {
           "repository": ("github.com/" + $release),
-          "git_commit_message": ("github.com/" + $release + ": update bcr.json"),
           "git_user_email": "((maintainer_email))",
           "git_user_name": "((maintainer_name))"
         }
@@ -105,7 +103,6 @@ def import_repo_release($release):
         "file": "repo/concourse/tasks/import-metalinks/config-release.yml",
         "params": {
           "repository": $release,
-          "git_commit_message": ($release + ": update bcr.json"),
           "git_user_email": "((maintainer_email))",
           "git_user_name": "((maintainer_name))"
         }
