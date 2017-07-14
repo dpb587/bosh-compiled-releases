@@ -76,7 +76,7 @@ for release_name in $( grep name: ../compiled-releases.yml | cut -c9- ); do
 
   mkdir -p "$( dirname "$metalink_path" )"
 
-  if [ ! -e "$metalink_path" ]; then
+  if [ -e "$metalink_path" ]; then
     # weird if they're rebuilding
     rm "$metalink_path"
   fi
