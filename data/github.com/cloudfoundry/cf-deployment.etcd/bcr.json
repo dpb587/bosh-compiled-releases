@@ -1,0 +1,1 @@
+{"name":"etcd","version":"112","source":{"digest":"c912b285e6f0ea2d3f84b73ab582f02778499a24"},"stemcell":{"os":"ubuntu-trusty","version":"3421.9"},"tarball":{"digest":"8791f9fc8aeb6c15adf01b4121b5028d207efd24","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/etcd-112-ubuntu-trusty-3421.9-20170629-220557-118700634.tgz"}}
