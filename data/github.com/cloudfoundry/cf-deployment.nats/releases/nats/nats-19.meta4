@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="nats-19.tgz">
+    <hash type="md5">ba94ab377c81476f084020fa154803e7</hash>
+    <hash type="sha-256">d74aa53a795a82aef962c347e2fa8b4f604dde590e66016a6441c73117447a16</hash>
+    <hash type="sha-512">40d01a13856368c656fc50994fce1494fe38c0a1a3d96214b2e2294e02262cde8fb9e8d4256554611c853060172d892b0a640ba7aa53a6d77a0cee207e95022b</hash>
+    <hash type="sha-1">2f49d69b4d2cabce7f0674f2a4a5ea3d2e8b83dc</hash>
+    <size>900</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/nats-release?v=19</url>
+    <version>19</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-14T00:18:12Z</published>
+</metalink>
