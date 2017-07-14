@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="php-buildpack-4.3.35.tgz">
+    <hash type="md5">8ea6486ff1cdfb517a445767aef3b13e</hash>
+    <hash type="sha-256">a6a6296b19321a38cbfc4187033fcc3a40586f3b5387649dd17eb5e883495c83</hash>
+    <hash type="sha-512">a2910e7f764a475494f979f8ca36917c318ba623a69487ab851fae56c5454fb8aaca190f4ae4c031998a4acd8d7b2ef1095977bc4b6badd935793caa8f27ed0e</hash>
+    <hash type="sha-1">1991c9990c9548a5bc494214fb93c1a3f06d75b3</hash>
+    <size>929</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/php-buildpack-release?v=4.3.35</url>
+    <version>4.3.35</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-14T00:18:22Z</published>
+</metalink>
