@@ -64,8 +64,3 @@ Example
 ## Concourse
 
     fly set-pipeline -p dpb587:bosh-compiled-releases -c <( bosh int -l concourse/secrets.yml <( jq -nf concourse/pipeline.jq ) )
-
-
-## Cloud Foundry App
-
-    ./app/push dpb587-bosh-compiled-releases

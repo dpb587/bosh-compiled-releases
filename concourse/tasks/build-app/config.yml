@@ -1,0 +1,12 @@
+platform: linux
+image_resource:
+  type: docker-image
+  source:
+    repository: dpb587/bosh-compiled-releases
+    tag: master-main
+inputs:
+  - name: repo
+outputs:
+  - name: app
+run:
+  path: repo/concourse/tasks/build-app/execute.sh

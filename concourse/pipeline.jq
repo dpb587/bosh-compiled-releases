@@ -38,6 +38,26 @@ include "./concourse/pipeline-helpers";
           }
         }
       ]
+    },
+
+    {
+      "name": "push-app",
+      "plan": [
+        {
+          "get": "repo",
+          "trigger": true
+        },
+        {
+          "task": "build-app",
+          "file": "repo/concourse/tasks/build-app/config.yml"
+        },
+        {
+          "put": "app",
+          "params": {
+            "manifest": "app/manifest.yml"
+          }
+        }
+      ]
     }
   ],
   "resources": [
@@ -83,6 +103,18 @@ include "./concourse/pipeline-helpers";
         "paths": [
           "operations/use-compiled-releases.yml"
         ]
+      }
+    },
+
+    {
+      "name": "app",
+      "type": "cf",
+      "source": {
+        "api": "((cf_api))",
+        "username": "((cf_username))",
+        "password": "((cf_password))",
+        "organization": "((cf_organization))",
+        "space": "((cf_space))"
       }
     }
   ],
