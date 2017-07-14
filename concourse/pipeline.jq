@@ -10,7 +10,35 @@ include "./concourse/pipeline-helpers";
     compile_boshio_release("cloudfoundry/uaa-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry-community/docker-registry-boshrelease"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry/syslog-release"; "ubuntu-trusty"),
-    compile_boshio_release("cloudfoundry/dns-release"; "ubuntu-trusty")
+    compile_boshio_release("cloudfoundry/dns-release"; "ubuntu-trusty"),
+
+    {
+      "name": "import-cf-deployment",
+      "plan": [
+        {
+          "get": "cf-deployment",
+          "trigger": true
+        },
+        {
+          "get": "repo"
+        },
+        {
+          "task": "import-cf-deployment",
+          "file": "repo/concourse/tasks/import-cf-deployment/config.yml",
+          "params": {
+            "git_user_email": "((maintainer_email))",
+            "git_user_name": "((maintainer_name))"
+          }
+        },
+        {
+          "put": "repo",
+          "params": {
+            "rebase": true,
+            "repository": "repo"
+          }
+        }
+      ]
+    }
   ],
   "resources": [
     {
@@ -45,7 +73,15 @@ include "./concourse/pipeline-helpers";
     boshio_release("cloudfoundry/uaa-release"),
     boshio_release("cloudfoundry-community/docker-registry-boshrelease"),
     boshio_release("cloudfoundry/syslog-release"),
-    boshio_release("cloudfoundry/dns-release")
+    boshio_release("cloudfoundry/dns-release"),
+
+    {
+      "name": "cf-deployment",
+      "type": "git",
+      "source": {
+        "uri": "https://github.com/cloudfoundry/cf-deployment.git"
+      }
+    }
   ],
   "resource_types": [
     {
