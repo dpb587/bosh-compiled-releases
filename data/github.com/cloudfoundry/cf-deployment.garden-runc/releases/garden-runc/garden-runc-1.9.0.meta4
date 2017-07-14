@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="garden-runc-1.9.0.tgz">
+    <hash type="md5">96c00e7114d38ddbf9662d7da5124f39</hash>
+    <hash type="sha-256">735ac7719e3c15aa5fa824e8fb9d1d2e5d00e7b10029b2ea2c79e3aca9535799</hash>
+    <hash type="sha-512">0ec56352aeafd2a332d8649fc7969da74e258214641a8454e03a75dd466c23c39441fbf69fde212f4c63c1655848884bb754fdaeaaa7f07df106f27efd439aaa</hash>
+    <hash type="sha-1">77bfe8bdb2c3daec5b40f5116a6216badabd196c</hash>
+    <size>922</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/garden-runc-release?v=1.9.0</url>
+    <version>1.9.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-14T00:17:50Z</published>
+</metalink>
