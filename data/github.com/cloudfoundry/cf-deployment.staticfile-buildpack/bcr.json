@@ -1,0 +1,1 @@
+{"name":"staticfile-buildpack","version":"1.4.9","source":{"digest":"b05357c7de4adb910a14f07a5eec6acdcc525e45"},"stemcell":{"os":"ubuntu-trusty","version":"3421.9"},"tarball":{"digest":"7347efca09a23d37add083734825a1c8958bdc42","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/staticfile-buildpack-1.4.9-ubuntu-trusty-3421.9-20170630-022608-986702162.tgz"}}
