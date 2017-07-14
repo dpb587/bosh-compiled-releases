@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="consul-170.tgz">
+    <hash type="md5">9f5885213bc9247e19c5bc0e6d9f012e</hash>
+    <hash type="sha-256">77485fb51998e8884ab51f3da73929f9245778a42c6b451bb577316f9d301630</hash>
+    <hash type="sha-512">dec333b91ec9e0937521cf01f46bd371ae09f66f71991aee79b9aaff50cbc64cc009977aa337d52d98a965ebf0f93fa309cf49ac20e79ef6e56d2a135c4e7369</hash>
+    <hash type="sha-1">9a3d8138e785088f586bcedcc32fb82abdab120b</hash>
+    <size>907</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-incubator/consul-release?v=170</url>
+    <version>170</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-14T00:17:09Z</published>
+</metalink>
