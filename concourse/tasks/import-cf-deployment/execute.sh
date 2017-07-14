@@ -23,9 +23,9 @@ for release_name in $( grep name: ../compiled-releases.yml | cut -c9- ); do
   compiled_url=$( bosh interpolate ../compiled-releases.yml --path="/name=$release_name/url" )
   compiled_sha1=$( bosh interpolate ../compiled-releases.yml --path="/name=$release_name/sha1" )
 
-  if [ ! -e data/github.com/cloudfoundry/cf-deployment.$release_name/bcr.json ]; then
+  if [ ! -e "data/github.com/cloudfoundry/cf-deployment.$release_name/bcr.json" ]; then
     true # definitely do it
-  elif grep "$compiled_sha1" data/github.com/cloudfoundry/cf-deployment/bcr.json | grep "$release_name" | grep -q "$release_version" ; then
+  elif grep "$compiled_sha1" "data/github.com/cloudfoundry/cf-deployment.$release_name/bcr.json" | grep "$release_name" | grep -q "$release_version" ; then
     echo "skipping $release_name/$release_version"
 
     continue
