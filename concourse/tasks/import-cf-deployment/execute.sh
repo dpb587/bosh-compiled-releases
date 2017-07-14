@@ -46,13 +46,15 @@ for release_name in $( grep name: ../compiled-releases.yml | cut -c9- ); do
 
   metalink_path="data/$repository/releases/$release_name/$( basename "$tarball_nice" | sed 's/.tgz$//' ).meta4"
 
-  mkdir -p "$( dirname "$metalink_path" )"
+  if [ ! -e "$metalink_path" ]; then
+    mkdir -p "$( dirname "$metalink_path" )"
 
-  meta4 create --metalink="$metalink_path"
-  meta4 set-published --metalink="$metalink_path" "$( date -u +%Y-%m-%dT%H:%M:%SZ )"
-  meta4 import-file --metalink="$metalink_path" --file="$tarball_nice" --version="$release_version" "$tarball_real"
-  meta4 file-set-hash --metalink="$metalink_path" --file="$tarball_nice" sha-1 "$source_sha1"
-  meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$source_url"
+    meta4 create --metalink="$metalink_path"
+    meta4 set-published --metalink="$metalink_path" "$( date -u +%Y-%m-%dT%H:%M:%SZ )"
+    meta4 import-file --metalink="$metalink_path" --file="$tarball_nice" --version="$release_version" "$tarball_real"
+    meta4 file-set-hash --metalink="$metalink_path" --file="$tarball_nice" sha-1 "$source_sha1"
+    meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$source_url"
+  fi
 
 
   #
