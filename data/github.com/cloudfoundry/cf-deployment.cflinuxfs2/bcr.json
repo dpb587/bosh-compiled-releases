@@ -1,0 +1,1 @@
+{"name":"cflinuxfs2","version":"1.135.0","source":{"digest":"b4f0255c5f0f6689e621a1b09b5cc0547222e24c"},"stemcell":{"os":"ubuntu-trusty","version":"3421.9"},"tarball":{"digest":"405c27e8a672c6aff0d8ce2e8b346f1a73992212","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/cflinuxfs2-1.135.0-ubuntu-trusty-3421.9-20170630-025654-242832645.tgz"}}
