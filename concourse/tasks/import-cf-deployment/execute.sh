@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eu -o pipefail
+set -eux -o pipefail
 
 git clone --quiet "file://$PWD/repo" repo-output
 
