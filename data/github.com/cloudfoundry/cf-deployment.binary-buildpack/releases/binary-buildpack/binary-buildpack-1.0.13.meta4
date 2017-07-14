@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="binary-buildpack-1.0.13.tgz">
+    <hash type="md5">19542772141c219f3e7510b6c9e3ddb2</hash>
+    <hash type="sha-256">fd99057885864c187c4521815ce7a9fbca84117fb2be10936274f975e5feb9e5</hash>
+    <hash type="sha-512">072550eb2f20d63b041c24b3838569967c4a4fe2f734275259dd53c32f21c6df24e425b1dac046ff03b313e1b65f6b5f9947f2738afc55b5b6e0f8661adb4f93</hash>
+    <hash type="sha-1">f894e46d279cd965885f255439ea14188c48306d</hash>
+    <size>936</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/binary-buildpack-release?v=1.0.13</url>
+    <version>1.0.13</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-14T00:15:28Z</published>
+</metalink>
