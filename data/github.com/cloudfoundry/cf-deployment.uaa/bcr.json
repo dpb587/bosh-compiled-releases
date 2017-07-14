@@ -1,0 +1,1 @@
+{"name":"uaa","version":"41","source":{"digest":"a1b1818fb4f5e722a6c3073d364ce4c400e5fb31"},"stemcell":{"os":"ubuntu-trusty","version":"3421.9"},"tarball":{"digest":"24472bedb7319e5650ca354a5a03a4c7766fcacf","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/uaa-41-ubuntu-trusty-3421.9-20170629-182158-054883869.tgz"}}
