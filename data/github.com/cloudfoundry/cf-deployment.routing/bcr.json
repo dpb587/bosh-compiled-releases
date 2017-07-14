@@ -1,0 +1,1 @@
+{"name":"routing","version":"0.158.0","source":{"digest":"89704ab3280027a3edee732dd8437d1936d5f7c7"},"stemcell":{"os":"ubuntu-trusty","version":"3421.11"},"tarball":{"digest":"f8e67713f316cfd48ab7e748a2efc4ab48bd6cdf","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/routing-0.158.0-ubuntu-trusty-3421.11-20170701-010856-703907915.tgz"}}
