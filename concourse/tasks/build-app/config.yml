@@ -6,7 +6,7 @@ image_resource:
     tag: master-main
 inputs:
   - name: repo
-    path: gopath/github.com/dpb587/bosh-compiled-releases
+    path: gopath/src/github.com/dpb587/bosh-compiled-releases
 outputs:
   - name: app
 run:
