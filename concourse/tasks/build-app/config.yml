@@ -10,4 +10,4 @@ inputs:
 outputs:
   - name: app
 run:
-  path: gopath/github.com/dpb587/bosh-compiled-releases/concourse/tasks/build-app/execute.sh
+  path: gopath/src/github.com/dpb587/bosh-compiled-releases/concourse/tasks/build-app/execute.sh
