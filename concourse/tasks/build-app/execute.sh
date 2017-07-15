@@ -2,8 +2,12 @@
 
 set -eu -o pipefail
 
-cd repo
+task_dir=$PWD
+
+export GOPATH=gopath
+
+cd gopath/src/github.com/dpb587/bosh-compiled-releases
 
 ./app/build
 
-cp -rp app/* ../app/
+cp -rp app/* "$task_dir/app/"
