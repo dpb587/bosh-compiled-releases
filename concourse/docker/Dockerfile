@@ -8,4 +8,12 @@ RUN \
   curl -Lo /usr/local/bin/bosh https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-2.0.26-linux-amd64 \
   && echo '81673e467a90a22a1365a5981c137b48eee10db8ed2af6adb67191ce35d12c73  /usr/local/bin/bosh' | sha256sum -c \
   && chmod +x /usr/local/bin/bosh
+RUN \
+  curl -Lo /tmp/download https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz \
+  && echo '1862f4c3d3907e59b04a757cfda0ea7aa9ef39274af99a784f5be843c80c6772  /tmp/download' | sha256sum -c \
+  && mkdir /usr/local/go \
+  && tar -xzf /tmp/download -C /usr/local/go --strip-components=1 \
+  && rm /tmp/download
+ENV GOROOT /usr/local/go
+ENV PATH $GOROOT/bin:$PATH
 ADD bcr /usr/local/bin/bcr
