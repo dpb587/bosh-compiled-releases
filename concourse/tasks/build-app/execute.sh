@@ -2,9 +2,9 @@
 
 set -eu -o pipefail
 
-task_dir=$PWD
+task_dir="$PWD"
 
-export GOPATH=gopath
+export GOPATH="$PWD/gopath"
 
 cd gopath/src/github.com/dpb587/bosh-compiled-releases
 
