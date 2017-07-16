@@ -3,5 +3,6 @@ applications:
   buildpack: https://github.com/cloudfoundry/binary-buildpack.git
   command: ./bcr-linux-amd64 serve --local=bcr.json --static-asset=bcr-darwin-amd64 --static-asset=bcr-linux-amd64
   disk_quota: 32M
+  host: dpb587-bosh-compiled-releases
   instances: 2
   memory: 64M
