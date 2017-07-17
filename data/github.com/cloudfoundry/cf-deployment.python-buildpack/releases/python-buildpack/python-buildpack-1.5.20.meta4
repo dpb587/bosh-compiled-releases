@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="python-buildpack-1.5.20.tgz">
+    <hash type="md5">3709d1d7ab335a753529d04753014ef2</hash>
+    <hash type="sha-256">096e1d51742a1c8372c67eb00d7ed9aa9f4fec5960e4809ed589f866a315189c</hash>
+    <hash type="sha-512">ea59c9e62eb1d4a5e1b32d3a37cbfd9739772b21ef98d095cc8881790c53a0b5bd0d31e625e46c19c0b17158644639046b204716e933e2fc24b1d108486ace8d</hash>
+    <hash type="sha-1">919216d7ba67ace630b58a7726d3974d3a4c4a57</hash>
+    <size>936</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/python-buildpack-release?v=1.5.20</url>
+    <version>1.5.20</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-17T22:37:01Z</published>
+</metalink>
