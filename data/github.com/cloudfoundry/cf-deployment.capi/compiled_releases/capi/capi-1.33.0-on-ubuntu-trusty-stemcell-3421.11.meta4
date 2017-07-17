@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="capi-1.33.0-on-ubuntu-trusty-stemcell-3421.11.tgz">
+    <hash type="md5">f44f0a7fad9dfd3201917d0bbec233ef</hash>
+    <hash type="sha-256">eef444b6de66cbd2e3f486b171b48728d5d4f3f16bd9472f4614b1fac2d177a3</hash>
+    <hash type="sha-512">5357315304de6f2adb5920d17b04c013d48649f4a28dd15113580ffa54a0bc8afb7a61e156da3e58dc34c5eaef008f42b65b33f12203376c1e67a762fab456c5</hash>
+    <hash type="sha-1">dec00eceacaab191ebe2398f1173de008e45b174</hash>
+    <size>242852485</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/capi-1.33.0-ubuntu-trusty-3421.11-20170713-180148-907581182.tgz</url>
+    <version>1.33.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-17T22:36:20Z</published>
+</metalink>
