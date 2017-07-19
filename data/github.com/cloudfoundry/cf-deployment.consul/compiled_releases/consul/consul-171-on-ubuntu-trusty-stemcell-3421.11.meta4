@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="consul-171-on-ubuntu-trusty-stemcell-3421.11.tgz">
+    <hash type="md5">0cc9605f358dae889788f401b7ab6aae</hash>
+    <hash type="sha-256">19c37ed9e7ee155d5b3f890791f606a5ca5040868d376bf4b8fb50b411cdf6f8</hash>
+    <hash type="sha-512">d464a3e48340634298d08ed738095a85db47e0adf2b51521a8ec9bd610825b1247631e4951b2fbeea64c6345ccd4aa0905e50be4773c0bf9bc9b8def6afe9bc9</hash>
+    <hash type="sha-1">cc6e0a1507e364eeb57c0a49a3e7689f6d8461d8</hash>
+    <size>118128253</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/consul-171-ubuntu-trusty-3421.11-20170714-044044-91096846.tgz</url>
+    <version>171</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-19T20:38:20Z</published>
+</metalink>
