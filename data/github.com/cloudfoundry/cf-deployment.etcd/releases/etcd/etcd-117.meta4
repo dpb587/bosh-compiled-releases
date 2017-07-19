@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="etcd-117.tgz">
+    <hash type="md5">a09190d3d4beb5436ae73a3d8788ba43</hash>
+    <hash type="sha-256">fb75241feb32e3796af79b56210d83f7cce3f89bfe43b89adfbc226410ebf312</hash>
+    <hash type="sha-512">f26747675648124355e59ea28f12ec759d04eea76e85bbfaa90d2dc08d73db497749145009f0d5c8d5faadac2ff3cde1f9604df70e4d13de7efb804c6cb3ea28</hash>
+    <hash type="sha-1">670bf17cea0e6e56bdac33956545b3e302062521</hash>
+    <size>901</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-incubator/etcd-release?v=117</url>
+    <version>117</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-07-19T20:38:37Z</published>
+</metalink>
