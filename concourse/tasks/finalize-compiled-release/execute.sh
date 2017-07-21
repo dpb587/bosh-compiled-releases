@@ -43,7 +43,13 @@ meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$( cat ..
 tarball_real=$( echo "../compiled-release/$release_name"-*.tgz )
 tarball_nice="$( basename "$( echo "$tarball_real" | sed -E 's/-compiled-1.+.tgz/.tgz/' )" )"
 
-metalink_path="data/$repository/compiled_releases/$release_name/$( basename "$tarball_nice" | sed 's/.tgz$//' ).meta4"
+tar -xzf "$tarball_real" $( tar -tzf "$tarball_real" | grep release.MF$ )
+version=$( grep '^version:' release.MF | awk '{print $2}' | tr -d "\"'" )
++stemcell=$( grep 'stemcell:' release.MF | head -n1 | awk '{print $2}' | tr -d "\"'" )
++stemcell_os=$( echo "$stemcell" | cut -d/ -f1 )
++stemcell_version=$( echo "$stemcell" | cut -d/ -f2 )
+
+metalink_path="data/$repository/releases/$release_name/$stemcell_os/$stemcell_version/$release_name-$version.meta4"
 
 mkdir -p "$( dirname "$metalink_path" )"
 
@@ -69,4 +75,4 @@ export GIT_COMMITTER_EMAIL="concourse.ci@localhost"
 
 git add .
 
-git commit -m "$repository: add compiled release"
+git commit -m "$repository: $stemcell"

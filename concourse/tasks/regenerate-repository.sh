@@ -6,7 +6,9 @@ release_dir="$1"
 data_dir="$2"
 repository="$3"
 
-for compiled_metalink in $( find "$release_dir/compiled_releases" -name '*.meta4' ); do
+for compiled_metalink in $( cd "$release_dir" ; find releases -depth 4 -name '*.meta4' ); do
+  compiled_metalink="$release_dir/$compiled_metalink"
+
   release_name="$( basename "$( dirname "$compiled_metalink" )" )"
   release_version="$( meta4 file-version --metalink "$compiled_metalink" )"
 
