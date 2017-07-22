@@ -1,0 +1,61 @@
+---
+compiled_packages:
+- name: acceptance-tests
+  version: 4deb673a3750f7ae31a0e882c1488f393196abb4
+  fingerprint: 4deb673a3750f7ae31a0e882c1488f393196abb4
+  sha1: dfe78f6415c750fbc47d8bf28838612b08015628
+  stemcell: ubuntu-trusty/3421.11
+  dependencies: []
+- name: acceptance-tests-windows
+  version: 21f0d5b58bf6016c6ff8e92c4be650b5f43709d1
+  fingerprint: 21f0d5b58bf6016c6ff8e92c4be650b5f43709d1
+  sha1: 512007b15e072b0b301ca47a72ff570c62bfae03
+  stemcell: ubuntu-trusty/3421.11
+  dependencies: []
+- name: dns
+  version: 11fbc7960d53b2dd4a825a9be4257c75ad5b95cf
+  fingerprint: 11fbc7960d53b2dd4a825a9be4257c75ad5b95cf
+  sha1: 73a793a2687a047d03d32a263aec9a1998a42534
+  stemcell: ubuntu-trusty/3421.11
+  dependencies:
+  - golang
+- name: dns-windows
+  version: 9d982d3bf06b8513a46fadbb386df3e29c2d9ce2
+  fingerprint: 9d982d3bf06b8513a46fadbb386df3e29c2d9ce2
+  sha1: 26c5c57e9085b95e62f23bcdabab3b69d0fb2fe9
+  stemcell: ubuntu-trusty/3421.11
+  dependencies:
+  - golang-windows
+- name: golang
+  version: 035aff9d24c0cd305c370d4314c637ebeca83841
+  fingerprint: 035aff9d24c0cd305c370d4314c637ebeca83841
+  sha1: 1854e75bdab148a99ba4c4b1834dad8ed0038cf4
+  stemcell: ubuntu-trusty/3421.11
+  dependencies: []
+- name: golang-windows
+  version: 32abf3b121a143751bc0d3bce9933024d7654809
+  fingerprint: 32abf3b121a143751bc0d3bce9933024d7654809
+  sha1: 5bea698d8d3fc6af0698ed685e076b86e9f2e4ef
+  stemcell: ubuntu-trusty/3421.11
+  dependencies: []
+jobs:
+- name: acceptance-tests
+  version: 7cf8c85dbb2d80c68936794b2e18b2723ffd57b7
+  fingerprint: 7cf8c85dbb2d80c68936794b2e18b2723ffd57b7
+  sha1: c1c94b47b58253945157082957949ffbdc8a24b5
+- name: acceptance-tests-windows
+  version: 3fb5eb06ee049937d17e72b01ee7d2e197654496
+  fingerprint: 3fb5eb06ee049937d17e72b01ee7d2e197654496
+  sha1: 1374f134c3aa931975c936fc9134a9e427273925
+- name: dns
+  version: 294314c8c7d878acea5df6b81fceeb991601094b
+  fingerprint: 294314c8c7d878acea5df6b81fceeb991601094b
+  sha1: 6044a37c403edfbaf1cf664803f5b140d567c485
+- name: dns-windows
+  version: 268b36d28d39e13e40b035bba231f48ce87c572b
+  fingerprint: 268b36d28d39e13e40b035bba231f48ce87c572b
+  sha1: 55a7a4c832bf273adea18b1235adf76c7ef43a7e
+commit_hash: 127e4d1
+uncommitted_changes: false
+name: dns
+version: 0.0.3
