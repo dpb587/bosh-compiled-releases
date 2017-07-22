@@ -9,11 +9,11 @@ repository="$3"
 for compiled_metalink in $( set -eu ; cd "$release_dir" ; find releases -mindepth 4 -name '*.meta4' ); do
   compiled_metalink="$release_dir/$compiled_metalink"
 
-  release_name="$( basename "$( dirname "$compiled_metalink" )" )"
-  release_version="$( meta4 file-version --metalink "$compiled_metalink" )"
+  stemcell_version="$( echo "$( basename "$( dirname "$compiled_metalink" )" )" )"
+  stemcell_os="$( echo "$( basename "$( dirname "$( dirname "$compiled_metalink" )" )" )" )"
 
-  stemcell_os="$( echo "$( basename "$compiled_metalink" )" | sed -E 's/.+-on-(.+)-stemcell-.+/\1/' )"
-  stemcell_version="$( echo "$( basename "$compiled_metalink" )" | sed -E 's/.+-stemcell-(.+)\.meta4/\1/' )"
+  release_name="$( echo "$( basename "$( dirname "$( dirname "$( dirname "$compiled_metalink" )" )" )" )" )"
+  release_version="$( meta4 file-version --metalink "$compiled_metalink" )"
 
   compiled_digest="$( meta4 file-hash --metalink "$compiled_metalink" sha-1 )"
   compiled_url="$( meta4 file-urls --metalink "$compiled_metalink" | head -n1 )"

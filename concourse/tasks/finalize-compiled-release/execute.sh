@@ -45,9 +45,9 @@ tarball_nice="$( basename "$( echo "$tarball_real" | sed -E 's/-compiled-1.+.tgz
 
 tar -xzf "$tarball_real" $( tar -tzf "$tarball_real" | grep release.MF$ )
 version=$( grep '^version:' release.MF | awk '{print $2}' | tr -d "\"'" )
-+stemcell=$( grep 'stemcell:' release.MF | head -n1 | awk '{print $2}' | tr -d "\"'" )
-+stemcell_os=$( echo "$stemcell" | cut -d/ -f1 )
-+stemcell_version=$( echo "$stemcell" | cut -d/ -f2 )
+stemcell=$( grep 'stemcell:' release.MF | head -n1 | awk '{print $2}' | tr -d "\"'" )
+stemcell_os=$( echo "$stemcell" | cut -d/ -f1 )
+stemcell_version=$( echo "$stemcell" | cut -d/ -f2 )
 
 metalink_path="data/$repository/releases/$release_name/$stemcell_os/$stemcell_version/$release_name-$version.meta4"
 
