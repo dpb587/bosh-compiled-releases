@@ -3,6 +3,7 @@ include "./concourse/pipeline-helpers";
 {
   "jobs": [
     import_repo_release("github.com/dpb587/openvpn-bosh-release"),
+    import_repo_release("github.com/dpb587/ssoca-bosh-release"),
 
     compile_boshio_release("cloudfoundry/bosh"; "ubuntu-trusty"),
     compile_boshio_release("concourse/concourse"; "ubuntu-trusty"),
@@ -86,6 +87,7 @@ include "./concourse/pipeline-helpers";
     },
 
     repo_release("github.com/dpb587/openvpn-bosh-release"; {"uri": "https://github.com/dpb587/openvpn-bosh-release.git"}),
+    repo_release("github.com/dpb587/ssoca-bosh-release"; {"uri": "https://github.com/dpb587/ssoca-bosh-release.git"}),
 
     boshio_release("cloudfoundry/bosh"),
     boshio_release("concourse/concourse"),
