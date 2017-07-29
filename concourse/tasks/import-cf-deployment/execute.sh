@@ -72,7 +72,7 @@ for release_name in $( grep name: ../compiled-releases.yml | cut -c9- ); do
   rm release.MF
 
   tarball_nice="$release_name-$release_version-on-$stemcell_os-stemcell-$stemcell_version.tgz"
-  metalink_path="data/$repository/releases/$release_name/$stemcell_os/$stemcell_version/$release_name-$version.meta4"
+  metalink_path="data/$repository/releases/$release_name/$stemcell_os/$stemcell_version/$release_name-$release_version.meta4"
 
   mkdir -p "$( dirname "$metalink_path" )"
 
