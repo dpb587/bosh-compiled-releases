@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="uaa-45.tgz">
+    <hash type="md5">a0c5c21d687eaf585cadacad76d4ce02</hash>
+    <hash type="sha-256">75abf9adab4acd4a76a5c639f9e36528af52b142e76803c516cbb5c062985b6c</hash>
+    <hash type="sha-512">efbd79e7e489dfaa05db2fe0f482afe1e2b84488407e256491499cda31fd653ff5b5704e697328aa0aabd17c22d8488ab466827662a6680adf2f6223d2ed151d</hash>
+    <hash type="sha-1">4d4fba13b724b75206f5eb3abae8efa94dcf7db8</hash>
+    <size>895</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=45</url>
+    <version>45</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-08-02T03:11:41Z</published>
+</metalink>
