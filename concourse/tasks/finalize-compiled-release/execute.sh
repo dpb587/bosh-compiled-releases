@@ -28,12 +28,14 @@ tarball_nice="$release_name-$release_version.tgz"
 
 metalink_path="data/$repository/releases/$release_name/$( basename "$tarball_nice" | sed 's/.tgz$//' ).meta4"
 
-mkdir -p "$( dirname "$metalink_path" )"
+if [ ! -e "$metalink_path" ]; then
+  mkdir -p "$( dirname "$metalink_path" )"
 
-meta4 create --metalink="$metalink_path"
-meta4 set-published --metalink="$metalink_path" "$( date -u +%Y-%m-%dT%H:%M:%SZ )"
-meta4 import-file --metalink="$metalink_path" --file="$tarball_nice" --version="$version" "$tarball_real"
-meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$( cat ../release/url )"
+  meta4 create --metalink="$metalink_path"
+  meta4 set-published --metalink="$metalink_path" "$( date -u +%Y-%m-%dT%H:%M:%SZ )"
+  meta4 import-file --metalink="$metalink_path" --file="$tarball_nice" --version="$version" "$tarball_real"
+  meta4 file-set-url --metalink="$metalink_path" --file="$tarball_nice" "$( cat ../release/url )"
+fi
 
 
 #
