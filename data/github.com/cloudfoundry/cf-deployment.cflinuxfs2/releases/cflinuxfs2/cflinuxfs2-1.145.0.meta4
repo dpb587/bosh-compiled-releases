@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cflinuxfs2-1.145.0.tgz">
+    <hash type="md5">e3f89487c56dae9479a0630a63ef2a94</hash>
+    <hash type="sha-256">8340d4e40fe2832a80187560d59334e8287cdfbee0be1b8fd397fcd863ae9741</hash>
+    <hash type="sha-512">151a75bd76b2ef8f5c1db603f092c85a24b45bba30947edaadd9b5a2d0232e2e69adf66c09f5b7598b2e3a54d3c383771e91373ed41f220e5ba99bdfc24f90d6</hash>
+    <hash type="sha-1">7d987fb36e3d303f1b88970a3532d0babd8555b1</hash>
+    <size>923</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/cflinuxfs2-release?v=1.145.0</url>
+    <version>1.145.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-08-02T03:11:17Z</published>
+</metalink>
