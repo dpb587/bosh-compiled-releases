@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="python-buildpack-1.5.22-on-ubuntu-trusty-stemcell-3421.11.tgz">
-    <hash type="md5">aedda8034a2061b39906a580c7761342</hash>
-    <hash type="sha-256">1df29265e196d7e29d639020a151b13931aa667d17d7f9698b5232a233786700</hash>
-    <hash type="sha-512">54713f96291f5bc0fb28094c2bd11e9861ff60fe95703366c3ff24e1d4854c81612bea063ef1ca05610f884940cda4abf5c9a1b2c42f38d60dde811d4ca9bee8</hash>
-    <hash type="sha-1">aeb9ebc076fc728c8e7f4b4fa7f7af83b9a1e9c0</hash>
-    <size>68255</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/python-buildpack-1.5.22-ubuntu-trusty-3421.11-20170725-212952-44769417.tgz</url>
+    <hash type="md5">ee81666d5c392e8fdc09a6d84912ce89</hash>
+    <hash type="sha-256">f1c306d282713628d883b0bf3fae541c7b91b30184081fb3523a1e4047081e9d</hash>
+    <hash type="sha-512">b5fe13eb866907c5f3f446d87d9cc0b1dab207939bf1b1d0fee24b14b70b1b9d0a6568cec9cf5b2a1eab5a12e9a520f1ec972fd901edd052f0ce93582c30dd23</hash>
+    <hash type="sha-1">7fa51741f7735112cca49575c4d0aff0b8355425</hash>
+    <size>68264</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/python-buildpack-1.5.22-ubuntu-trusty-3421.11-20170801-210400-25499769.tgz</url>
     <version>1.5.22</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2017-07-29T15:47:56Z</published>
+  <published>2017-08-05T01:38:19Z</published>
 </metalink>
