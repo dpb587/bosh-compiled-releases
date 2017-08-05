@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="dotnet-core-buildpack-1.0.23-on-ubuntu-trusty-stemcell-3421.11.tgz">
-    <hash type="md5">2d3d4f50575ef831e1d43c00d1e173d4</hash>
-    <hash type="sha-256">634cfaf661ebf390b71ed3854729904a11120383198e6d49f2308234999d0e37</hash>
-    <hash type="sha-512">b10426c2497b1ba1f02352fb73abe728d819bf4d49df1908402966b6c02c47a4f888fa770f747070e2cffa87fe209f8169eed5bb89533e33cad4a787f0df3121</hash>
-    <hash type="sha-1">b4c37918161078dffd76c2f4fd49f88b69c74759</hash>
-    <size>73828</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/dotnet-core-buildpack-1.0.23-ubuntu-trusty-3421.11-20170725-213037-054102527.tgz</url>
+    <hash type="md5">8956efe015a3afd2458cc9e258ea5113</hash>
+    <hash type="sha-256">fa41f5cd33e839556fb32548a1eb6111353719485fd12c003723d8ae3d2021bb</hash>
+    <hash type="sha-512">ac750125f9325589d87422b82ecafdaa807039870c66ce4870e7d3b6b9740cfde4f01e96154c4b8e3424159d1c71bb151edf61b6a7fdd70068e8c9a3950beb1e</hash>
+    <hash type="sha-1">3320095e6a6064e4a94052bf559c27059de9ae30</hash>
+    <size>73830</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/dotnet-core-buildpack-1.0.23-ubuntu-trusty-3421.11-20170801-210234-266023694.tgz</url>
     <version>1.0.23</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2017-07-29T15:47:45Z</published>
+  <published>2017-08-05T01:37:23Z</published>
 </metalink>
