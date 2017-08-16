@@ -97,6 +97,10 @@ func (c RewriteManifest) Execute(args []string) error {
 	}
 
 	for releaseIdx, releaseRaw := range manifest["releases"].([]interface{}) {
+		if strings.HasSuffix(stemcellVersion, "latest") {
+			continue
+		}
+
 		release := releaseRaw.(map[interface{}]interface{})
 
 		if _, found := release["name"]; !found {
@@ -137,6 +141,10 @@ func (c RewriteManifest) Execute(args []string) error {
 
 		release["url"] = compiledRelease.URL
 		release["sha1"] = compiledRelease.Digest
+		release["stemcell"] = map[string]string{
+			"os":      stemcellOS,
+			"version": stemcellVersion,
+		}
 
 		manifest["releases"].([]interface{})[releaseIdx] = release
 	}
