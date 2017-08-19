@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="capi-1.40.0.tgz">
+    <hash type="md5">c827e10ab265318af386b6e90fb491e3</hash>
+    <hash type="sha-256">d854b05abe41e182219f17f547f749e8eeef65e448950a6538e4357bb12db1dd</hash>
+    <hash type="sha-512">0f19c0453d10cfdaa43c27bb199553ecbf0ae1945d9841c2d128c3cb3987ae916b4afd9b4910af6814e46ec14ce47a0b6226fce8c1c937b6f1dd03c46ecfe01b</hash>
+    <hash type="sha-1">108794c6db23467462af24a6f9c4612269520882</hash>
+    <size>908</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/capi-release?v=1.40.0</url>
+    <version>1.40.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-08-19T01:11:32Z</published>
+</metalink>
