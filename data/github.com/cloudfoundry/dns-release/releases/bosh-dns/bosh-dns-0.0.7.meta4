@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bosh-dns-0.0.7.tgz">
+    <hash type="md5">65201f4552ff3a31217db95084611238</hash>
+    <hash type="sha-1">5bcbf78b69767f04dd8be4314197142181e82357</hash>
+    <hash type="sha-256">509565937660ad311e1bcd31b4049cd5ddd0cf6c3d97fc8429240bd3501c6ee3</hash>
+    <hash type="sha-512">c9329b3e5d666399ae1c165efd3074c862593db204018bf49a55fae87b9b60b3cce7d0a9c9e95912c18113b8d1e9b2fc65308d731c9f3c1de17fb52757049366</hash>
+    <size>187119674</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/dns-release?v=0.0.7</url>
+    <version>0.0.7</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-08-29T20:13:32Z</published>
+</metalink>
