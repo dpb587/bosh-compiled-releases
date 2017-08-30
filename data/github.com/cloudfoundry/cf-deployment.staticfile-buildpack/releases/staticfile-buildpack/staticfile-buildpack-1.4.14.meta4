@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="staticfile-buildpack-1.4.14.tgz">
+    <hash type="md5">be7fa4e74a600c8c18ba694ebf97428c</hash>
+    <hash type="sha-256">a1ac69e356453e24cb00896117b66139ccb49ab96abce9269e99faba60664ec3</hash>
+    <hash type="sha-512">22869aeb7134d644d3f5f605d3a295f1c3d1dbdac916c72625a7d03bcb24ab5302e50cb55a3d635e5cd1ff9e82e8c7e3a884cc26864c92610691a12a5bd9880b</hash>
+    <hash type="sha-1">c60d5f0c9b8d914637162e4c0c39098225524b72</hash>
+    <size>944</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/staticfile-buildpack-release?v=1.4.14</url>
+    <version>1.4.14</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-08-30T21:22:08Z</published>
+</metalink>
