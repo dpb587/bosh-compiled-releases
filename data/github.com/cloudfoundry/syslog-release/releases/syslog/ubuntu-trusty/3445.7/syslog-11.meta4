@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="syslog-11-on-ubuntu-trusty-stemcell-3445.7.tgz">
+    <hash type="md5">3515f5f3461f8de28089b5e6a7e081e6</hash>
+    <hash type="sha-1">86b50fab9b41a5abf5032f047b14be7195ff628b</hash>
+    <hash type="sha-256">402a1cf43587ec453c7e70acb18fd3784b22090f01871e368967d53c7fbcd9db</hash>
+    <hash type="sha-512">98b7f5e27e86a17a3cdfdaa0b4452d06b4ef9a6bf6b561514a283f3fc205148ed4ea019a204a70ba1a63ce9ede006b1d4f5e1a37c37c29902134e2f06f8f02c0</hash>
+    <size>83658224</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/syslog/402a1cf43587ec453c7e70acb18fd3784b22090f01871e368967d53c7fbcd9db</url>
+    <version>11</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-09-01T03:30:18Z</published>
+</metalink>
