@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-smoke-tests-39-on-ubuntu-trusty-stemcell-3445.7.tgz">
+    <hash type="md5">69cf2b83152e8e380df1b6ab7acfe06b</hash>
+    <hash type="sha-256">6274c380f8fc5a5a531775c651d48b28e911b10b519b127c72ad801158b77885</hash>
+    <hash type="sha-512">66182a701970892397b66f54e1fdc674fb64ac2730b4f519816d03b6dc9690fb9d5c0738d90353329053ffe20b5ecc9fb983617c5c19e325a5784b8c8084e13f</hash>
+    <hash type="sha-1">0825e703c301e3760815a600b63bf86e25bca18c</hash>
+    <size>97368720</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-smoke-tests-39-ubuntu-trusty-3445.7-20170831-234417-737264356.tgz</url>
+    <version>39</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-09-05T20:11:56Z</published>
+</metalink>
