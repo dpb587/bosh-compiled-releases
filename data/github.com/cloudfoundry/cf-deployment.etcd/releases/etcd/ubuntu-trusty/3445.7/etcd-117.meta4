@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="etcd-117-on-ubuntu-trusty-stemcell-3445.7.tgz">
+    <hash type="md5">0c945b5375a4744da8df6e13bb9858ab</hash>
+    <hash type="sha-256">fd899ca76ba350fae60c58fe1f68ca500cceb911322fc3329558b35faaac7916</hash>
+    <hash type="sha-512">78fe1d29b86e30f224f4bdbbc8bb53d9ee5d8e064444a74af923cec2ec3d3c3b21f76732b88d7e543100e47b1842803e9e66bfe941732c693217cdb8ac52353b</hash>
+    <hash type="sha-1">2e4e5fb7ff1f53b63ef401dbbc3584f02a703388</hash>
+    <size>126732310</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/etcd-117-ubuntu-trusty-3445.7-20170831-234609-355518033.tgz</url>
+    <version>117</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-09-05T20:13:16Z</published>
+</metalink>
