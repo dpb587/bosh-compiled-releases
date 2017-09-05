@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="java-buildpack-4.5-on-ubuntu-trusty-stemcell-3445.7.tgz">
+    <hash type="md5">0c762781eee81859331322fe55bdb19c</hash>
+    <hash type="sha-256">06ffcbdbed5db04f265f33de82fe784f55404c020e02b1bdefd89d0634791e87</hash>
+    <hash type="sha-512">34e5cbfd6555736b851465165bd0af2b930f946ad0a1a3d7d150daeee41b451d4b9ca0f41d7f0874bed8ad60f3adebe2b135756e40ae2e535fbc590843e2261c</hash>
+    <hash type="sha-1">7901b0119beb83364287d806b6d9738834cb5e6d</hash>
+    <size>180119</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/java-buildpack-4.5-ubuntu-trusty-3445.7-20170831-234354-273834087.tgz</url>
+    <version>4.5</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-09-05T20:13:37Z</published>
+</metalink>
