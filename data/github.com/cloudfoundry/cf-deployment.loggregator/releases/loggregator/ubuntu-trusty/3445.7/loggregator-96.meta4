@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="loggregator-96-on-ubuntu-trusty-stemcell-3445.7.tgz">
+    <hash type="md5">fa0a04ae4334bd475018e8c6c4194d10</hash>
+    <hash type="sha-256">4640375c6ac192251931b4714fffbd850fbc0f3501095c2f2dba642891c5e3ba</hash>
+    <hash type="sha-512">db4a1ecd7851fed740a908bacd27f31678370557b7f8c4bd9ff3520e19df7465c1baf969bc5653ff4be677c9b526dcc2bc7b56733e0162fbf06b2a8ec3b58e77</hash>
+    <hash type="sha-1">683565a8eefbecd26e78ac3585c95591bb730681</hash>
+    <size>118068486</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/loggregator-96-ubuntu-trusty-3445.7-20170911-215846-812413445.tgz</url>
+    <version>96</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-09-13T01:16:58Z</published>
+</metalink>
