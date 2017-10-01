@@ -43,6 +43,7 @@ include "./concourse/pipeline-helpers";
 
     {
       "name": "push-app",
+      "serial": true,
       "plan": [
         {
           "get": "repo",
