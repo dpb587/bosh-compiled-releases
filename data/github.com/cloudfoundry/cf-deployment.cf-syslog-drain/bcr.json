@@ -1,0 +1,1 @@
+{"name":"cf-syslog-drain","version":"2","source":{"digest":"c9954676033164f550ae645bd1216cf56d159905"},"stemcell":{"os":"ubuntu-trusty","version":"3445.11"},"tarball":{"digest":"e2c2767c0940904d865cc8661178fb163b246cfe","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/cf-syslog-drain-2-ubuntu-trusty-3445.11-20171002-233845-331698755.tgz"}}
