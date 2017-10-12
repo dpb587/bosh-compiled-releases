@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="statsd-injector-1.0.30-on-ubuntu-trusty-stemcell-3468.tgz">
+    <hash type="md5">71e9dfa4b7b81c1d0b90354c1dfe34c6</hash>
+    <hash type="sha-256">08f4ab8b83eac0fcd19c9a994b6268c7b0d8cf3fb84a8a1d70383a4c46f7c83a</hash>
+    <hash type="sha-512">762c014ea8b807f309851d2b3d0934ffbba221f8e85489975b611643334cb6cf14b3dd00ab496b386f6da89b251419024e9c54676dd06ad22dd7679363285bb1</hash>
+    <hash type="sha-1">5c4cc808974ec971556f5015cfdbd043dbaeac23</hash>
+    <size>93106095</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/statsd-injector-1.0.30-ubuntu-trusty-3468-20171006-173839-947727539.tgz</url>
+    <version>1.0.30</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-10-12T17:06:34Z</published>
+</metalink>
