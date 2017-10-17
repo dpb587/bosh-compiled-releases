@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-networking-1.8.1.tgz">
+    <hash type="md5">60e22f451e3dc7c2f5864582d9417809</hash>
+    <hash type="sha-256">59d96cdd4dade0171b5763b4e8c185c340fc5a476422019a945c1784b5793c40</hash>
+    <hash type="sha-512">cb4e11ab5e97585d1fe5d1c776ab81614cdcecbd50a03bf8e75c55f17d8c6befa20e6829289989ea9ca2248f7f83060c52b9f40b12810fcd4c21f2c6ad1cf79e</hash>
+    <hash type="sha-1">adb6b04463c9e2a8340fdbb6216a361f341f1785</hash>
+    <size>928</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/cf-networking-release?v=1.8.1</url>
+    <version>1.8.1</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-10-17T22:07:41Z</published>
+</metalink>
