@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="java-buildpack-4.6-on-ubuntu-trusty-stemcell-3468.tgz">
+    <hash type="md5">1366f4b04bacc40f631b33a73f1b5b05</hash>
+    <hash type="sha-256">615562604f53b73e4617d872b2c3a5aaf546f03b2c455435b809f0cb578c0647</hash>
+    <hash type="sha-512">38051c91b58858216c25c0d9c3c09b820ce68aa4bc768efd65577ad3e90fecd6a90e304d8a52daa83f4ec7aeeffa6569dbad23d56828a85f46ab5eb7216acd10</hash>
+    <hash type="sha-1">f6cc2da1f736cb92547332e8a595c20a04ff33cd</hash>
+    <size>180088</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/java-buildpack-4.6-ubuntu-trusty-3468-20171017-224415-316582695.tgz</url>
+    <version>4.6</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-10-20T21:10:43Z</published>
+</metalink>

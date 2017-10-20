@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="java-buildpack-4.6.tgz">
+    <hash type="md5">1d4ad04b1110ab153e560b0213315178</hash>
+    <hash type="sha-256">f20074f2688ce46fde204ad64dc70c95f1f11a0a2edbd03c198e2ec42dce3467</hash>
+    <hash type="sha-512">ba2668e09bddfb94d5418954f39abe6799b3cb871a711fd08b002a8990c041a9af19b76e5a1d53ddb7757df52f11a7071f8f36d86697f3624077d18a46fe9acf</hash>
+    <hash type="sha-1">e9f6b1e7fe51079af70e7c42198f5e5201b7b663</hash>
+    <size>923</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/java-buildpack-release?v=4.6</url>
+    <version>4.6</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-10-20T21:10:42Z</published>
+</metalink>
