@@ -1,0 +1,1 @@
+{"name":"grafana","version":"13.1.0","source":{"digest":"f2d83df75ce98dc765f316d290d6a101ab9effba"},"stemcell":{"os":"ubuntu-trusty","version":"3468.1"},"tarball":{"digest":"2c5a623d91e490a86c93db006b3a22cb6a047aa8","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/grafana/e99fd5009b70628f6e5690285406c79d97f17ecbea2c1be50249664ffcf5e465"}}
