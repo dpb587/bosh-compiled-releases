@@ -1,0 +1,1 @@
+{"name":"credhub","version":"1.6.1","source":{"digest":"5b3a4ff2cd51d6167bc53eeb8abd47b292e2186f"},"stemcell":{"os":"ubuntu-trusty","version":"3468.1"},"tarball":{"digest":"af2bea728d0ef429873cbcea2aeb35f853ecd533","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/credhub/d70016cbd216640b83e377d24132e6c7169cf7a3bce41ce7897cc6de68a89df6"}}
