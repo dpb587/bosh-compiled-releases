@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="grafana-13.1.0.tgz">
+    <hash type="md5">0d5852adec9d94c1eebc9cdfd9f2b452</hash>
+    <hash type="sha-1">f2d83df75ce98dc765f316d290d6a101ab9effba</hash>
+    <hash type="sha-256">22c538d7d191e65f349a86e12441829528967e34f98a0094be7bb546a38c2cfe</hash>
+    <hash type="sha-512">50ec6a5cf73a06fd28bbea058f52e8e33f0fffeff86b8dfa1d00289d4cc6f7ed3ae001b450f906358dbcd88b0e7b6dbf46fe6ff206112eb46cde6af53b96ba32</hash>
+    <size>50140202</size>
+    <url>https://bosh.io/d/github.com/vito/grafana-boshrelease?v=13.1.0</url>
+    <version>13.1.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-10-29T02:24:27Z</published>
+</metalink>
