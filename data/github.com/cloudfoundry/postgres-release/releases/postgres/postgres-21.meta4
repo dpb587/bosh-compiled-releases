@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="postgres-21.tgz">
+    <hash type="md5">f5b003b1a32ce1fb0fbfd0d09c351c37</hash>
+    <hash type="sha-1">b37916b709fb45ac7de3e195456301cb01a1ae22</hash>
+    <hash type="sha-256">8262fe597edb9b50da7ff04e7c8f27556e7d9d43ae67f820297395b9cc23df0c</hash>
+    <hash type="sha-512">a4c7136a231b7e420464664725faab51b963cecfd1436c3d4bf8a4a9a73bcdc63fd03f3dfdd63c92ec9c72531d5482fec5894d4b28e3fe4bbe93cea7730c3f2d</hash>
+    <size>120577994</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=21</url>
+    <version>21</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-10-29T01:58:11Z</published>
+</metalink>
