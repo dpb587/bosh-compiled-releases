@@ -1,0 +1,1 @@
+{"name":"postgres","version":"21","source":{"digest":"b37916b709fb45ac7de3e195456301cb01a1ae22"},"stemcell":{"os":"ubuntu-trusty","version":"3468.1"},"tarball":{"digest":"a9a36adb80944dc41f62e2f96ebe59d304af182f","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/postgres/6b29cecc920700214bc4515eb8acba8bf0975438be3d17a9c10b79fc044a72b6"}}
