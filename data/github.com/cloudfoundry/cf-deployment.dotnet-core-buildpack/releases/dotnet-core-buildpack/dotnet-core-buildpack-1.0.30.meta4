@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="dotnet-core-buildpack-1.0.30.tgz">
+    <hash type="md5">59352a126bde7cfef739e543ea0565d4</hash>
+    <hash type="sha-256">bf8a5ca4f1c3da3caddbf1343211898262c3f596d5f18d1c157fd959e138ff65</hash>
+    <hash type="sha-512">86c7d2d151d61937fa8d3ad3391dc38da909a6937a0b7043a13cab8958839e93725a37a8b974a2866c8180eef11fac3e415417cf3be0f748252b8e6477c9413e</hash>
+    <hash type="sha-1">d9b909a9d627aee00a6196bef26d39f13acfea70</hash>
+    <size>949</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/dotnet-core-buildpack-release?v=1.0.30</url>
+    <version>1.0.30</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-11-11T06:47:32Z</published>
+</metalink>
