@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="diego-1.29.2.tgz">
+    <hash type="md5">1a7d905fd64b4a5c6e0c478fc03e7b0c</hash>
+    <hash type="sha-256">ffd75a97f5c90fbfba4d679bdb77ad1810f46809811322592027db1f1ac39f7e</hash>
+    <hash type="sha-512">3f7d040d94bee1e4545fbefa0c9ef8ab10f238287177018fbe4640a85f65d0939beeacacc95a1f15448a8ab0963e0cd981440280d8077e9be1c2e9c6f2dd393f</hash>
+    <hash type="sha-1">2adc2bcd0e901f6a598a3dbb3e4c3ca4f0896aab</hash>
+    <size>909</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/diego-release?v=1.29.2</url>
+    <version>1.29.2</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-11-11T06:47:02Z</published>
+</metalink>
