@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="docker-registry-3.3.1.tgz">
+    <hash type="md5">a2912235270b0db1296bf98b7d7eb4fa</hash>
+    <hash type="sha-1">662437b0d9ed4c204bd5932654e98dfda022bed3</hash>
+    <hash type="sha-256">d473a9867bc9ac7765993feed214789ca1ebd331b8b5dbd2fb409e27fd45a1b3</hash>
+    <hash type="sha-512">f1f8dff813383f540a667168d82c03cbc5733d399a4459b92b5a6b6d6292d457b0bd9372bad222d9a6a43e40d6bc42f550104c42a6480a2199974e96636e3faf</hash>
+    <size>116776647</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-community/docker-registry-boshrelease?v=3.3.1</url>
+    <version>3.3.1</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-11-14T15:02:11Z</published>
+</metalink>
