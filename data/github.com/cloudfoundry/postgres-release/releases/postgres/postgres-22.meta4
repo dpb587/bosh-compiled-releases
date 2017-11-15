@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="postgres-22.tgz">
+    <hash type="md5">7a1f406c2e812439a0082c58d93b51d1</hash>
+    <hash type="sha-1">86a1333122e9cdd051551c83ec26d36f6e325d6c</hash>
+    <hash type="sha-256">0fed96fe56d13d1ae332787fd4b7511e02a9255e320fc072a23a18f69713bafd</hash>
+    <hash type="sha-512">7244cd61e792c083f79cebe93d89a520d138ecaebb211ed1e40858ae930490782f4905df9f5ccbd6135c80c582187d8572a57e0beda5ff30ef5f2ef8b8326c3a</hash>
+    <size>114245631</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=22</url>
+    <version>22</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-11-15T21:02:39Z</published>
+</metalink>
