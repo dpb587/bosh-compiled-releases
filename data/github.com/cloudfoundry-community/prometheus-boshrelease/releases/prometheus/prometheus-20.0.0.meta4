@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="prometheus-20.0.0.tgz">
+    <hash type="md5">22a6302eceb24576c711046efeb109c9</hash>
+    <hash type="sha-1">11a18875879a7712c67e6d30c4a069101ae77560</hash>
+    <hash type="sha-256">f1e08ea1baf5dd3a191dc52e4f9f471579f24f7e7895ed14c18e6bae33061c78</hash>
+    <hash type="sha-512">1aa4d73ad2fe90f11b0b43e38e4e69df4434e6c2a2491e69d7e5ce96713ea8e28e976f32f2de51856d457c019d9f02aa6a14c18baeb82287eab6bec5224ea9c8</hash>
+    <size>329058494</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-community/prometheus-boshrelease?v=20.0.0</url>
+    <version>20.0.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-11-20T05:10:31Z</published>
+</metalink>
