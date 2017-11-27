@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="nodejs-buildpack-1.6.10-on-ubuntu-trusty-stemcell-3468.11.tgz">
+    <hash type="md5">5d688cff89b06b9bf3b0dfa9d627a489</hash>
+    <hash type="sha-256">b777f59a7ff1b246ac04e409bc1ae7009062947600eb05d4f82136d6ee2f9921</hash>
+    <hash type="sha-512">7e427c2c21deb70501dd69a7720683b156a2d4d1e34a6b07bd9e348d4cbbc1176fe2d52618682059e3b7173b4a6650a899440f2647c5ef39bb1393d84e03862e</hash>
+    <hash type="sha-1">6bdc995e7d132c5feca96509c2398d145a6f1902</hash>
+    <size>3885817</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/nodejs-buildpack-1.6.10-ubuntu-trusty-3468.11-20171124-211721-250479187.tgz</url>
+    <version>1.6.10</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-11-27T23:01:48Z</published>
+</metalink>
