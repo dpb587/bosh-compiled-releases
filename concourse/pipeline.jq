@@ -10,8 +10,12 @@ include "./concourse/pipeline-helpers";
     compile_boshio_release("cloudfoundry/garden-runc-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry/uaa-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry-community/docker-registry-boshrelease"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry-community/prometheus-boshrelease"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry/postgres-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry/syslog-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry/bosh-dns-release"; "ubuntu-trusty"),
+    compile_boshio_release("pivotal-cf/credhub-release"; "ubuntu-trusty"),
+    compile_boshio_release("vito/grafana-boshrelease"; "ubuntu-trusty"),
 
     {
       "name": "import-cf-deployment",
@@ -95,8 +99,12 @@ include "./concourse/pipeline-helpers";
     boshio_release("cloudfoundry/garden-runc-release"),
     boshio_release("cloudfoundry/uaa-release"),
     boshio_release("cloudfoundry-community/docker-registry-boshrelease"),
+    boshio_release("cloudfoundry-community/prometheus-boshrelease"),
+    boshio_release("cloudfoundry/postgres-release"),
     boshio_release("cloudfoundry/syslog-release"),
     boshio_release("cloudfoundry/bosh-dns-release"),
+    boshio_release("pivotal-cf/credhub-release"),
+    boshio_release("vito/grafana-boshrelease"),
 
     {
       "name": "cf-deployment",
