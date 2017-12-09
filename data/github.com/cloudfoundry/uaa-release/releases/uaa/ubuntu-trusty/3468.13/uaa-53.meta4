@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="uaa-53-on-ubuntu-trusty-stemcell-3468.13.tgz">
+    <hash type="md5">e1ae1f503cd691fd2f21c47f50d565cf</hash>
+    <hash type="sha-1">9970e157e5f98f5b5662c3f7286775ab6ac323f8</hash>
+    <hash type="sha-256">fcd0d6e6068dd6c3107b75bee450b3a222f55c51836493700dd0a157197339bd</hash>
+    <hash type="sha-512">90274799673fa36713d6af03ae62be083669afd75c0a7cb1b7894a406b9993a6174be77e1d8b92a16bbe22c0071cdadc98af65b63f6fd33da31efafa6640e6ac</hash>
+    <size>169989241</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/uaa/fcd0d6e6068dd6c3107b75bee450b3a222f55c51836493700dd0a157197339bd</url>
+    <version>53</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-09T12:17:22Z</published>
+</metalink>
