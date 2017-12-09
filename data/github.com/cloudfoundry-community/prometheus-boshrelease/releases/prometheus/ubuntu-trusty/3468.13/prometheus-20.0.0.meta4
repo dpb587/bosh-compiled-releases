@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="prometheus-20.0.0-on-ubuntu-trusty-stemcell-3468.13.tgz">
+    <hash type="md5">f11d047e2baec36655229eda90dc273e</hash>
+    <hash type="sha-1">2692c4f06d20cf1888f544fda8f1edaa8cf92153</hash>
+    <hash type="sha-256">5f59df645938b109f7287b14cd9cc2da80a63b2368f2453ef6579644c7c93f82</hash>
+    <hash type="sha-512">6225939396cbe4644ae879895f37fa8633118563f11b35cf0d12101d1a124004ce9d0493ebfbfbcb22bd71d3db5c1fa77e23d43cb019e44e744708c1089fd6ab</hash>
+    <size>341012772</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/prometheus/5f59df645938b109f7287b14cd9cc2da80a63b2368f2453ef6579644c7c93f82</url>
+    <version>20.0.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-09T13:13:56Z</published>
+</metalink>
