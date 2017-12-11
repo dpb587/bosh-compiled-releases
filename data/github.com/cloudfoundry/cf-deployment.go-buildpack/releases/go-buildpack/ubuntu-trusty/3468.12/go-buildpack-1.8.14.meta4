@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="go-buildpack-1.8.14-on-ubuntu-trusty-stemcell-3468.12.tgz">
+    <hash type="md5">055dd02f68667e6debcd2496066d03dd</hash>
+    <hash type="sha-256">4c7ecb12f058e93ee858e2f341af7d55c420ea2e46e75fb6afa011aa7ef820ef</hash>
+    <hash type="sha-512">c7f6c723203dedff6cc8a44660ecb80d10d71cf7816a1e374123bd148c7db6c57331542cf93b8f6f9196b6e5d15a2737217a9ff5c539e00886ebcdeb42f7eb73</hash>
+    <hash type="sha-1">6e585767aa79bf2b49d6449704072bfb97ca978e</hash>
+    <size>3807706</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/go-buildpack-1.8.14-ubuntu-trusty-3468.12-20171208-002506-957168463.tgz</url>
+    <version>1.8.14</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-11T22:13:31Z</published>
+</metalink>
