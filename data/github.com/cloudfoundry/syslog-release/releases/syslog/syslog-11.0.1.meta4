@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="syslog-11.0.1.tgz">
+    <hash type="md5">6c854f0bffd0e2aab6d7d0e5ad453a0e</hash>
+    <hash type="sha-1">f1cee0d5afa7347f3e2593cc7d1bd04d56885af8</hash>
+    <hash type="sha-256">7a9a37cc9913f601cbce270c39db68ae4cdcfc8fd67cd5e7e3afe144a6ecd9a2</hash>
+    <hash type="sha-512">b196dfc377879bd95c80d13553808c682efa0f09706eeb6b5304ea7d2d246035590cdc7ed12396065674370b552371801afe3b63a2fb3fc38dc2c0838f3314a2</hash>
+    <size>82431425</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/syslog-release?v=11.0.1</url>
+    <version>11.0.1</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-11T22:23:52Z</published>
+</metalink>
