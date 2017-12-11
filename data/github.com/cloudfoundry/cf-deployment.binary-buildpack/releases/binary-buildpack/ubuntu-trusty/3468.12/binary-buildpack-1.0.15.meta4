@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="binary-buildpack-1.0.15-on-ubuntu-trusty-stemcell-3468.12.tgz">
+    <hash type="md5">16b311aecc7190e503315f22f511b775</hash>
+    <hash type="sha-256">60b1074459409c147e088e80d8ca1b655bd4cf3718879669321dc8d5f2bcc30c</hash>
+    <hash type="sha-512">65b2590d44de447a85de9a8d5f5e77f43a7b2605227b50494220ff9c5d353722e41e4f1d7fe5b4092688a199cf2e868a6d0a06ccecbb046228e9ff596e5010d7</hash>
+    <hash type="sha-1">8490b2f62e7f8b981cdbee5acb9e4537cb9c19ce</hash>
+    <size>51916</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/binary-buildpack-1.0.15-ubuntu-trusty-3468.12-20171208-002509-69823273.tgz</url>
+    <version>1.0.15</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-11T22:08:28Z</published>
+</metalink>
