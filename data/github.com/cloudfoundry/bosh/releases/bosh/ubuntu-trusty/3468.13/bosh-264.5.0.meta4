@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bosh-264.5.0-on-ubuntu-trusty-stemcell-3468.13.tgz">
+    <hash type="md5">7df4f07a48dd2d56310995d95ae897e2</hash>
+    <hash type="sha-1">7eaf0cd6099a3057213c2998d30116d69d707c62</hash>
+    <hash type="sha-256">d8a1008946a4d8af86cde4fb3b55f67864f3cfc09bd964a8da5574efd28a6f54</hash>
+    <hash type="sha-512">f6bc784ae80f86c2f0f897986097ddafcf919b60a7e2d8079bb7b990b90aa5669a335c7d77f687a16da9b52bc881bfaedd07a6ced6a35612e2c15b54e4f89cde</hash>
+    <size>98461366</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/bosh/d8a1008946a4d8af86cde4fb3b55f67864f3cfc09bd964a8da5574efd28a6f54</url>
+    <version>264.5.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-13T23:29:29Z</published>
+</metalink>
