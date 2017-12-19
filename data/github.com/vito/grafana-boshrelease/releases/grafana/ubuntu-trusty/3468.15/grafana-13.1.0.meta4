@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="grafana-13.1.0-on-ubuntu-trusty-stemcell-3468.15.tgz">
+    <hash type="md5">6394f23e1250447d163d73beed80d922</hash>
+    <hash type="sha-1">175cc69ec7ac8ec502af95de03c6e65a3a6ae7d2</hash>
+    <hash type="sha-256">ec8ce97c0d433d0e44a83ee623c228c07fa59c2afe335e3646eb13e86e05a785</hash>
+    <hash type="sha-512">514cbd2cf98787bd0ae9f0a8ab09f939e1a1e6525fa5bb0498f96f13e48382148f6dee6cc523e1058bbdd93510dcc00d63b4bf228a20a2f574906ee1fbf1061d</hash>
+    <size>50223174</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/grafana/ec8ce97c0d433d0e44a83ee623c228c07fa59c2afe335e3646eb13e86e05a785</url>
+    <version>13.1.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2017-12-19T23:45:15Z</published>
+</metalink>
