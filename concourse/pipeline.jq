@@ -14,6 +14,7 @@ include "./concourse/pipeline-helpers";
     compile_boshio_release("cloudfoundry/postgres-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry/syslog-release"; "ubuntu-trusty"),
     compile_boshio_release("cloudfoundry/bosh-dns-release"; "ubuntu-trusty"),
+    compile_boshio_release("cloudfoundry-incubator/bpm-release"; "ubuntu-trusty"),
     compile_boshio_release("pivotal-cf/credhub-release"; "ubuntu-trusty"),
     compile_boshio_release("vito/grafana-boshrelease"; "ubuntu-trusty"),
 
@@ -103,6 +104,7 @@ include "./concourse/pipeline-helpers";
     boshio_release("cloudfoundry/postgres-release"),
     boshio_release("cloudfoundry/syslog-release"),
     boshio_release("cloudfoundry/bosh-dns-release"),
+    boshio_release("cloudfoundry-incubator/bpm-release"),
     boshio_release("pivotal-cf/credhub-release"),
     boshio_release("vito/grafana-boshrelease"),
 
