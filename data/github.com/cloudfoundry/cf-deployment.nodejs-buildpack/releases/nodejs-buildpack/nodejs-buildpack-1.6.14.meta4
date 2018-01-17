@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="nodejs-buildpack-1.6.14.tgz">
+    <hash type="md5">b764b2ae4ecc69bbbd8aaf7cc35427e6</hash>
+    <hash type="sha-256">622794f042c2ff3fa75b9c1273ac44fb0690c703a9d6626cc65bf563ef5cd2ec</hash>
+    <hash type="sha-512">fcbe23eac933095be844bc9c36b25f2a9556c8e173fc27f49dd8673826cac2c47228100f04176fcc4688d0bb71881de23229bb14ac3343be141f1514037be7b5</hash>
+    <hash type="sha-1">1700c0269d043eb593aef7704de785d044c7a030</hash>
+    <size>936</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/nodejs-buildpack-release?v=1.6.14</url>
+    <version>1.6.14</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-01-17T18:55:43Z</published>
+</metalink>
