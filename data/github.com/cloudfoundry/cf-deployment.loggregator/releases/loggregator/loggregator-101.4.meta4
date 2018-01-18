@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="loggregator-101.4.tgz">
+    <hash type="md5">44690a0b8396a983352847c2feb923d8</hash>
+    <hash type="sha-256">f29bddb98ac8b17eae6354ce84e8c267e524b8ece53c55f2441c79fcef08e823</hash>
+    <hash type="sha-512">15c2c331fcd9c7e115489975a73e47c7e4c59097d1f2fb410b6d3473b84b0f4d413e55b934fdebc16d3d0e45cec9c92094adc0b14ff7313ca66ebbed77c8be4d</hash>
+    <hash type="sha-1">3f280dc2eca880448ec229ef6950fea7de539222</hash>
+    <size>922</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/loggregator-release?v=101.4</url>
+    <version>101.4</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-01-18T22:50:53Z</published>
+</metalink>
