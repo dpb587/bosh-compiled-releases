@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="capi-1.48.0-on-ubuntu-trusty-stemcell-3468.21.tgz">
+    <hash type="md5">161f069a3e7e38421aa726898acf960c</hash>
+    <hash type="sha-256">a8fd1ea1cc9229cd0d917c2c2974342bba0c2e77cb860d977e8e9c31fe070fa0</hash>
+    <hash type="sha-512">48d18a103e9b28d5eb45d27805e40950260bfbe6673936512ebbc1166872bb53d204b635adf1de5a016cb4db7c338afbf435d9293f16bd6954ca9a80b2a67dd1</hash>
+    <hash type="sha-1">aa009c93f5a7c2ec9a35cc411a0ce85bcd8dfcc1</hash>
+    <size>288693146</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/capi-1.48.0-ubuntu-trusty-3468.21-20180126-234031-159450343.tgz</url>
+    <version>1.48.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-01-30T20:58:52Z</published>
+</metalink>
