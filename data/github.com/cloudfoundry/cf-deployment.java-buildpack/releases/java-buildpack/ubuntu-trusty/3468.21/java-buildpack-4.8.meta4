@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="java-buildpack-4.8-on-ubuntu-trusty-stemcell-3468.21.tgz">
+    <hash type="md5">15423492dfdcf2e1c05c2179534ae704</hash>
+    <hash type="sha-256">9b556fa759c74ff99755cc202ffd46f3c9285829f42d2c46adacdf8561e07f67</hash>
+    <hash type="sha-512">1eabbc93259f2f35fbabb9f14c3d6c8e40acd7d7074b0b550e52b871c28d5e70133a909e28d7a4c24b758f72fd70e3ccc03567d1b4d0f861634324b73e75e3e9</hash>
+    <hash type="sha-1">6bea616643c5538c09874f8da9fe36821d3ec52a</hash>
+    <size>177779</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/java-buildpack-4.8-ubuntu-trusty-3468.21-20180125-024339-794525623.tgz</url>
+    <version>4.8</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-01-30T21:01:10Z</published>
+</metalink>
