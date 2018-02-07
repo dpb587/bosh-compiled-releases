@@ -1,0 +1,1 @@
+{"name":"bosh-dns","version":"1.1.0","source":{"digest":"206805c1404b304b701a4e2aba8b7359fdf86047"},"stemcell":{"os":"ubuntu-trusty","version":"3468.21"},"tarball":{"digest":"08ccfede38a0a6cddaf6deee52db6890d32ed1e1","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/bosh-dns/684f9cbbdca2800b7b0c3718cf5a5161729ca37ac62f39ad2d99f626fabdcc6e"}}
