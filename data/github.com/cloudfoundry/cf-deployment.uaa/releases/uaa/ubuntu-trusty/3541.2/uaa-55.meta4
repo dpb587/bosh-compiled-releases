@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="uaa-55-on-ubuntu-trusty-stemcell-3541.2.tgz">
+    <hash type="md5">15bf49ecc7b11dca53c3b409b77d914f</hash>
+    <hash type="sha-256">a2be45658e4e9b30da10a445b6edc3d8c8eaff9aebae28aa4b23b63135d26d6b</hash>
+    <hash type="sha-512">abd40b039c66a4c983d980548ed1c87144438bac9c1ac061daf5a1c21d631c927ab0d5463c01ed5111865b7bf20b38c4f50cb9b80760f31a728ece6467d3dff8</hash>
+    <hash type="sha-1">9979cd8835aa48c32fc35d2bb8d5c67e58ae170a</hash>
+    <size>171037377</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/uaa-55-ubuntu-trusty-3541.2-20180209-185611-129522304.tgz</url>
+    <version>55</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-02-13T18:02:33Z</published>
+</metalink>
