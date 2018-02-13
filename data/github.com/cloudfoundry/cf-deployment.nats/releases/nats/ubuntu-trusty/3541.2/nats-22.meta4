@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="nats-22-on-ubuntu-trusty-stemcell-3541.2.tgz">
+    <hash type="md5">90e337140432a46f2c96426ea1e16bf2</hash>
+    <hash type="sha-256">1408677bb520c4de9250e1e3c717ca20e14e8024b8c9975d444d99e68a2de574</hash>
+    <hash type="sha-512">ae0e3fdf8882b7e559adc280ab2118ee92646ea66f673571268a3c8a3c51d436f57fa80ad277f6652b989397f180f7997ee2eeef8ebc5cfa063ba6e3b3a3470d</hash>
+    <hash type="sha-1">84cdd90b26babf6b1a7ef62fe5e5dc0e4319d37a</hash>
+    <size>127936183</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/nats-22-ubuntu-trusty-3541.2-20180209-185528-093991272.tgz</url>
+    <version>22</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-02-13T18:01:57Z</published>
+</metalink>
