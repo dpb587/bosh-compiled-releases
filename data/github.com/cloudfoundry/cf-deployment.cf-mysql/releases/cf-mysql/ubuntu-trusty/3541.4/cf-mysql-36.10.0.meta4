@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-mysql-36.10.0-on-ubuntu-trusty-stemcell-3541.4.tgz">
+    <hash type="md5">bce89e73c5550cd08eccb1adfcee713c</hash>
+    <hash type="sha-256">ecb5e7862fb6cfebba5348abde6676bd9459d1315e8c8f4d6fbe0d669e4c726a</hash>
+    <hash type="sha-512">978f05b2616b41f0aebb9c54490a3d768eb85e4729c7b771271262cbe780573160232dca5e588d14147728c76c13821be163c72079c64201b8b8374f8cf8acfb</hash>
+    <hash type="sha-1">e9382de13005464108c39b876c46b12f1d1a9c3e</hash>
+    <size>668353833</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-mysql-36.10.0-ubuntu-trusty-3541.4-20180215-031245-137396276.tgz</url>
+    <version>36.10.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-02-16T19:36:55Z</published>
+</metalink>
