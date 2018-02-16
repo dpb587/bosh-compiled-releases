@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="concourse-3.9.0-on-ubuntu-trusty-stemcell-3541.4.tgz">
+    <hash type="md5">e5910976bbc9a2907c86a1c3ebee154e</hash>
+    <hash type="sha-1">ff6e20157880535316d87d4507b43fbbfdd47b79</hash>
+    <hash type="sha-256">55ff60e5138f19bfc64aba77964d16bf3383ed90dc928e2ade83403f3a3299bc</hash>
+    <hash type="sha-512">e942b217a6a56f781df8292508255c9556912ed7e05223b700b929541e739ab93907a7fa133d86e17b1c80f8ef9cc8f0f7d25ae4e73cee9d6f866651bcf17ee0</hash>
+    <size>410976807</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/concourse/55ff60e5138f19bfc64aba77964d16bf3383ed90dc928e2ade83403f3a3299bc</url>
+    <version>3.9.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-02-16T17:01:22Z</published>
+</metalink>
