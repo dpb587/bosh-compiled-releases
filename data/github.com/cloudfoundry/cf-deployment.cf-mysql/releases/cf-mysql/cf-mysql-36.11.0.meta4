@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-mysql-36.11.0.tgz">
+    <hash type="md5">373cc407bc0f9d136456011180f234bc</hash>
+    <hash type="sha-256">5f8f3e1881cb53a8eb79ac05147978f28f7f3a5ff897aba705b6619b2348cfa4</hash>
+    <hash type="sha-512">cd6739ead80189786b139cd8d073b6eb2ad02276c5912e7d8334f8590b80a511930f30c9648dda16fe1317c9f8f10e96954a4ec12b429fcfcd2cfca48add4397</hash>
+    <hash type="sha-1">42af21025230d4fd01480d3b1a2ced9d48c83472</hash>
+    <size>921</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/cf-mysql-release?v=36.11.0</url>
+    <version>36.11.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-03-01T18:48:12Z</published>
+</metalink>
