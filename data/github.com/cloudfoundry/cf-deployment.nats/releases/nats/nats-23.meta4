@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="nats-23.tgz">
+    <hash type="md5">d567232125b4c51854128776eaa61695</hash>
+    <hash type="sha-256">61220ee36875e644975da6fd6f4df8b0d0c41fa8d260c105d90bde452704632a</hash>
+    <hash type="sha-512">3d0a1887fe00740772a96f193c2112a6126b27cc3ba0d926e20e338da576a070b6112699b9216b298cd35c0ee9326278e6b2f8d1a8269c310ac0c8ab89dde59f</hash>
+    <hash type="sha-1">d56195a7cc0b7781c9de7bb7479472f16fcc1049</hash>
+    <size>900</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/nats-release?v=23</url>
+    <version>23</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-03-09T21:02:56Z</published>
+</metalink>
