@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-syslog-drain-6.0.tgz">
+    <hash type="md5">370481d78b7ce332de66fc49d49c066c</hash>
+    <hash type="sha-256">17f903350464dd21816167d50f6f193941820e3db39d859f240a059526e98a64</hash>
+    <hash type="sha-512">8e6935c910583352727b311771fa683e1ec31f20e6975d0c180be475a3fcaa30233a9be463a496cb0363a7bb1f49ed87d57d060186da7bff236ec2f5d592d89a</hash>
+    <hash type="sha-1">6207b0b7d0a7ae294f0aa46aaccd9d61698395e5</hash>
+    <size>928</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/cf-syslog-drain-release?v=6.0</url>
+    <version>6.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-03-09T21:00:38Z</published>
+</metalink>
