@@ -1,0 +1,1 @@
+{"name":"kubo","version":"0.14.0","source":{"digest":"d7ec4445f651d68acf241ac29520b3b97fe2d738"},"stemcell":{"os":"ubuntu-trusty","version":"3541.9"},"tarball":{"digest":"58d3c14ac635c374d7f1017cd66de8d5da2c2508","url":"https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/kubo/57e9ebef3b3f77a8be5ba9ec17a80e101f1a36253d200f60920e611b0c55200b"}}
