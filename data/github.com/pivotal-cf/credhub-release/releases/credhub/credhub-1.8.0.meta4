@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="credhub-1.8.0.tgz">
+    <hash type="md5">e8a7f1ca90a24bb5d570da0441129be9</hash>
+    <hash type="sha-1">aad436c0fe7edf05e28b75c970ec530a75ed6a1c</hash>
+    <hash type="sha-256">37ff775e336c434555a7a4f5ac9e6a8554385f12b4c3610d01f1e54e37bf82ac</hash>
+    <hash type="sha-512">ef8d8947482089ab906cee929c2a12b39d80764e3a422a0e409b2f5a02c5a513626681d629a8250f0032840bbddc3b1f406847aa0065258f6941ca921c68d051</hash>
+    <size>210450509</size>
+    <url>https://bosh.io/d/github.com/pivotal-cf/credhub-release?v=1.8.0</url>
+    <version>1.8.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-04-09T22:34:42Z</published>
+</metalink>
