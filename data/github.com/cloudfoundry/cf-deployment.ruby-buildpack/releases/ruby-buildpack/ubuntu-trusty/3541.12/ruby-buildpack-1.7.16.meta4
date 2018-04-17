@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="ruby-buildpack-1.7.16-on-ubuntu-trusty-stemcell-3541.12.tgz">
+    <hash type="md5">709786cd9a8e76928e4dfa07ea2a743f</hash>
+    <hash type="sha-256">c8e8799384008c0e4cb4ecc1c7cc043306bb30942c9c44f64ff5d1cc91a1370e</hash>
+    <hash type="sha-512">797ab022b2551188be9cf08e796882efb171a183615d9d3413a94d11e89e9661629d977fe5d8abda776e99da5b02bd2e084447b31d58cfcf07f7f47629d28b4e</hash>
+    <hash type="sha-1">6ea118f83cfde143a61d052340396479df4883d1</hash>
+    <size>3923998</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/ruby-buildpack-1.7.16-ubuntu-trusty-3541.12-20180413-020835-534170524.tgz</url>
+    <version>1.7.16</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-04-17T22:30:30Z</published>
+</metalink>
