@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="credhub-1.9.0-on-ubuntu-trusty-stemcell-3541.12.tgz">
+    <hash type="md5">441c953d9cdca40ffda6dc09ea9975ba</hash>
+    <hash type="sha-1">6b29fc425cba54bce0112ffd0ccf4433f6a4cd29</hash>
+    <hash type="sha-256">bbebd765bdcf12807a9927fafa900b269b32e7f7f36115b4cdf7d28779350d29</hash>
+    <hash type="sha-512">428bcf67e19ca7e216b4325a6790bcb95ef1235286084155bedf1f5b300fef59c417c84ccfcc3dedf23c039f70915cbc41e9e338ccc357286d82e095000d9378</hash>
+    <size>199276086</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/credhub/bbebd765bdcf12807a9927fafa900b269b32e7f7f36115b4cdf7d28779350d29</url>
+    <version>1.9.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-07T20:06:52Z</published>
+</metalink>
