@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="docker-registry-3.3.2-on-ubuntu-trusty-stemcell-3586.5.tgz">
+    <hash type="md5">b782f57214e750f278f151fb0ab8cebd</hash>
+    <hash type="sha-1">310085fc73ec77f9d1ddb6ba8dd7ba9f042bb41f</hash>
+    <hash type="sha-256">fb48dc7a4b80ea40d82ed717045414b02c827674ef0da8f5dae422c4560af521</hash>
+    <hash type="sha-512">92081efd24e78fcdfd1b972b4023fd017e4db3c43ab9544c6d09bcb3676157d21b632494fabd8f27960d629bb91df20c6bbdc82d3508acb3b277021ea7897d90</hash>
+    <size>124487451</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/docker-registry/fb48dc7a4b80ea40d82ed717045414b02c827674ef0da8f5dae422c4560af521</url>
+    <version>3.3.2</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-09T07:49:56Z</published>
+</metalink>
