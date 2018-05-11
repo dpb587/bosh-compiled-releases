@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="ruby-buildpack-1.7.18.tgz">
+    <hash type="md5">102169eca276a2f67a467e0f63e0bef0</hash>
+    <hash type="sha-256">a666aba08269fdd643e2e80fc93768eea08200746fb9a1eb2da89de777cfb05b</hash>
+    <hash type="sha-512">1a68272ca803672bde0d2af95717fe6301e33ced982e39f2cd069d60f437b11be1bf6c1e82c664bafccf1fe71e85e2efe5de85241a8dc412c96cf3a19d4b2852</hash>
+    <hash type="sha-1">00a7af65f477429cc802da4b116e9f94ade276f1</hash>
+    <size>930</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/ruby-buildpack-release?v=1.7.18</url>
+    <version>1.7.18</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-11T18:07:23Z</published>
+</metalink>
