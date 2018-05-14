@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="garden-runc-1.13.2-on-ubuntu-trusty-stemcell-3586.7.tgz">
+    <hash type="md5">91eeba342db985b71d20a07d07849f02</hash>
+    <hash type="sha-256">c0f2e7c78b434ca9706d79f270e93ead1553134c6b19e40c80b853ba12001b88</hash>
+    <hash type="sha-512">b45817c292d77dc06dcf15cf664e54409de718fa2cd04e5dd1a20c96f5f154d6b61903679d087458f67d974769ab21a32a7ab840f3e4bf2e4929c792fdd479b6</hash>
+    <hash type="sha-1">a63ab9768c6347c94eb241200f29855ddb1b0f31</hash>
+    <size>233223532</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/garden-runc-1.13.2-ubuntu-trusty-3586.7-20180511-085950-615057951.tgz</url>
+    <version>1.13.2</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-14T23:58:10Z</published>
+</metalink>
