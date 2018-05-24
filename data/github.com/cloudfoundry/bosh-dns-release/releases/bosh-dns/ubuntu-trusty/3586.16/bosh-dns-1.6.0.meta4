@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bosh-dns-1.6.0-on-ubuntu-trusty-stemcell-3586.16.tgz">
+    <hash type="md5">3446894336480ef4de8e9fc66c6307e5</hash>
+    <hash type="sha-1">f3d4392ccc32b610c393f80465a6700d0ff18327</hash>
+    <hash type="sha-256">3594581ef52e322f8d773d1edc58612d0fe3f078f1ab4c59068188211baec852</hash>
+    <hash type="sha-512">8132b63ac117d248b757011eaee77fe84a67acc8316627e5bc92c7f157886b3f8a4b521849b7cc7a262fc16df411456cb5e54e70849d5d5599d41679679e29b9</hash>
+    <size>126425377</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/bosh-dns/3594581ef52e322f8d773d1edc58612d0fe3f078f1ab4c59068188211baec852</url>
+    <version>1.6.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-24T22:26:35Z</published>
+</metalink>
