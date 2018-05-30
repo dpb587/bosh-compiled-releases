@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="dotnet-core-buildpack-2.0.6-on-ubuntu-trusty-stemcell-3586.16.tgz">
+    <hash type="md5">98d212c3c592b774111dfab9e5a22735</hash>
+    <hash type="sha-256">42bdb2d65b33a95ca55eb554ea5e71e40d3e5486feb94d1cddc0b1f15175a14f</hash>
+    <hash type="sha-512">b34df9930a6b82b8d7f67157c1bda4bcdbcd784c22b74d8fc3703b2727fbbc44e9948183c380746fbfecba6d612876ae937938424d8a875de63df98e2f4e26da</hash>
+    <hash type="sha-1">921f21ec989f0e6e61af62ad77b31f9f3f969dbc</hash>
+    <size>4039028</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/dotnet-core-buildpack-2.0.6-ubuntu-trusty-3586.16-20180524-182709-193762236.tgz</url>
+    <version>2.0.6</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-30T18:28:46Z</published>
+</metalink>
