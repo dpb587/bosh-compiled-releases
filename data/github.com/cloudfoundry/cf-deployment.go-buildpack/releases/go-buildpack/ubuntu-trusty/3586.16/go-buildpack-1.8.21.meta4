@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="go-buildpack-1.8.21-on-ubuntu-trusty-stemcell-3586.16.tgz">
+    <hash type="md5">774d19b63762dfb333c28210cef2cc5f</hash>
+    <hash type="sha-256">37ba1b71dd06f08a8e031c6dd6b193605a80ec217a2b2d99e6af5e83a23796e1</hash>
+    <hash type="sha-512">24c6a42a7593dfac34753c1c521d9148f3f3c329812f124e63c779259f7f52ae89519c6e1fa5b051aee3527e3b5516bce82665b5bc19763ab377f1612bc520b4</hash>
+    <hash type="sha-1">dd710a621fda81e5dea03be69782302bc9df5e9b</hash>
+    <size>3863278</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/go-buildpack-1.8.21-ubuntu-trusty-3586.16-20180524-182635-052408468.tgz</url>
+    <version>1.8.21</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-30T18:29:06Z</published>
+</metalink>
