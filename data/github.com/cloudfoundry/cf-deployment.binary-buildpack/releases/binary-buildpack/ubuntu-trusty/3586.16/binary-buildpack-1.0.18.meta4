@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="binary-buildpack-1.0.18-on-ubuntu-trusty-stemcell-3586.16.tgz">
+    <hash type="md5">9e68bbb91a987bc3f4c6be098a07df63</hash>
+    <hash type="sha-256">4948e36413ade9332ea316f5703f5c0795c4f315d65ca943888cecc082bf6086</hash>
+    <hash type="sha-512">da80a16d67fb64a8b4912d0595ff10a8e8307f361af8078d82e68e5969c88207a60fc3d35f85944f468366ca62db8f80077cce160aa25be8823db664a5e75193</hash>
+    <hash type="sha-1">b08758694708bd1c26ecd159108fb9efb091f44b</hash>
+    <size>3613695</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/binary-buildpack-1.0.18-ubuntu-trusty-3586.16-20180524-182708-593429376.tgz</url>
+    <version>1.0.18</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-05-30T18:26:34Z</published>
+</metalink>
