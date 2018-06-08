@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="cf-networking-1.13.0-on-ubuntu-trusty-stemcell-3586.16.tgz">
-    <hash type="md5">989f45fb258cbbc51a66f2183553fb77</hash>
-    <hash type="sha-256">013c3e15d4d9db92675fc5a98b252d4d20159fa2a6414f563ebb94ecf4d095cc</hash>
-    <hash type="sha-512">a6e808c405413cfe05c3e61728bc25634ae684234bb325b910af96b5811a4d414ab33ba84d6c5c47f94b3e73ec56cb3d0903f34f92581ae2071d638ad090a641</hash>
-    <hash type="sha-1">36f9ee7021fdd9de39a2422541d9fb8c46cbdd81</hash>
-    <size>175812708</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-networking-1.13.0-ubuntu-trusty-3586.16-20180524-183010-908745936.tgz</url>
+    <hash type="md5">a2de6c31c3872a843221407576375d11</hash>
+    <hash type="sha-256">905dcd6e3fe4ab22b51862f03ccbecee300ffaba318240e299357b3f174d1403</hash>
+    <hash type="sha-512">df2b839e47751a37da43e68c199b43cd7c0a91040fc012917fafcd976e1ff45d238908f52bfaeb5c718ab2e188a2bb0d96cd22f343dc21c782af19fc8cfd564e</hash>
+    <hash type="sha-1">301300c1bb973c2c32f9e92755771555aac06701</hash>
+    <size>175861332</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-networking-1.13.0-ubuntu-trusty-3586.16-20180606-170814-608741188.tgz</url>
     <version>1.13.0</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2018-05-30T18:27:44Z</published>
+  <published>2018-06-08T19:16:57Z</published>
 </metalink>
