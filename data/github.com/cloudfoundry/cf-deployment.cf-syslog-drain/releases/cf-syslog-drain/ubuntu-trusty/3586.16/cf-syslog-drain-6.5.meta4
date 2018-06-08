@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="cf-syslog-drain-6.5-on-ubuntu-trusty-stemcell-3586.16.tgz">
-    <hash type="md5">afcf18ac468deb181d049f10765f7c29</hash>
-    <hash type="sha-256">73d293392f08b38d98b2969985d821f9d059c02fc25cb0cc3ecb581e5d199af8</hash>
-    <hash type="sha-512">bcd6987de92814378b6b2b8854a9c1aeaf567bf2a60e1614eab7960718812ec6023c33b4242ff1547af77f8537509f2486810b0691c0265b3144cff5573bc8bd</hash>
-    <hash type="sha-1">549a703a646000125fe34cdd018b8d66375ad5b4</hash>
-    <size>117375633</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-syslog-drain-6.5-ubuntu-trusty-3586.16-20180524-182959-396975204.tgz</url>
+    <hash type="md5">993dc5b2ffc0e00b7fd1ff5a23a96c9f</hash>
+    <hash type="sha-256">99dd82b4c42890eff5cfb73cecbc8a467b7dc500cd801ffa7696eeabe615a83e</hash>
+    <hash type="sha-512">d72ac69df5ecf4e3728a88760d389496401162031462a13bace7b9e73b00ef56988b774d6a00dc79fc720b92c041877f3868de8e96222588f146b862f4824e53</hash>
+    <hash type="sha-1">154000b4a38325995a3159e402346c8bcef5965b</hash>
+    <size>117350534</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-syslog-drain-6.5-ubuntu-trusty-3586.16-20180606-170729-503553541.tgz</url>
     <version>6.5</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2018-05-30T18:28:03Z</published>
+  <published>2018-06-08T19:17:14Z</published>
 </metalink>
