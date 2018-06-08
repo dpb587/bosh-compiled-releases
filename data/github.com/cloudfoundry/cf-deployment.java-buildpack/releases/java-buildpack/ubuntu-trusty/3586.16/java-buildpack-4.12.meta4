@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="java-buildpack-4.12-on-ubuntu-trusty-stemcell-3586.16.tgz">
-    <hash type="md5">1c1396e548dcefd73ef2e814fe0f7efb</hash>
-    <hash type="sha-256">af2031137829ba14b8dd3a965ec0df4367d05cbdb3bae4112c51fc7014b80586</hash>
-    <hash type="sha-512">7a5f05fda5177a536a2efc02aa15488ec45159774fc6786a1d55d70f6002d95551d11c7d6b36a03269146362a00566c06b069520c99a1bad2794f9ed18e09120</hash>
-    <hash type="sha-1">db6a65958517524a85c9099993c3bc920206ef16</hash>
-    <size>185972</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/java-buildpack-4.12-ubuntu-trusty-3586.16-20180524-182706-666063212.tgz</url>
+    <hash type="md5">6d237270b826d9753d90f622258a83c6</hash>
+    <hash type="sha-256">7e5d2e095ec16cad822a5ff05ad57b4a6fcf6e2f9f400d950f4fa40a7cbdb6ec</hash>
+    <hash type="sha-512">87ad37fede2e6332482916b2ff4ecb5741ca74724d3d32aa2feb71c5c944860555bf4592880994e64e76f794c088b0d2aae4d89d5c187b2168bcd2c3090c1a10</hash>
+    <hash type="sha-1">51e800db7c5d7f70bf5293cd2e2b50c11e438320</hash>
+    <size>185982</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/java-buildpack-4.12-ubuntu-trusty-3586.16-20180606-170416-946384215.tgz</url>
     <version>4.12</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2018-05-30T18:29:07Z</published>
+  <published>2018-06-08T19:18:24Z</published>
 </metalink>
