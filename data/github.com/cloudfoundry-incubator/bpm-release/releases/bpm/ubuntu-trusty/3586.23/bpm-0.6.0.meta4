@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bpm-0.6.0-on-ubuntu-trusty-stemcell-3586.23.tgz">
+    <hash type="md5">c3667ee4f5fdfcdb270f9ab9dda87f65</hash>
+    <hash type="sha-1">2ca3b5ae84f5755a82c533dc1f1fd9cc217192b1</hash>
+    <hash type="sha-256">88e7efa725f5026807f615528c54ecedab283e86ee90e5365b2e123a9198e01d</hash>
+    <hash type="sha-512">688909f834d54b258df725da83c2b9e97e34ab9a131dd803f414d6b62c48f0d7fa7a8e582691ea389a3345259adeb491efcb692f5dee61a9451c81d1f4e66de8</hash>
+    <size>143987010</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/bpm/88e7efa725f5026807f615528c54ecedab283e86ee90e5365b2e123a9198e01d</url>
+    <version>0.6.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-06-14T13:58:06Z</published>
+</metalink>
