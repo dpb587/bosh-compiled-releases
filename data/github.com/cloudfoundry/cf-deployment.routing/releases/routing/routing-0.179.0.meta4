@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="routing-0.179.0.tgz">
+    <hash type="md5">f0cb7a3ae65df8806884e16255ef5c31</hash>
+    <hash type="sha-256">ffd0ea677816bac4ef780d765a6fde30de9e08bab8111579611bb403672f6ad7</hash>
+    <hash type="sha-512">3925395d596e29fac5d8a97fbcc97259fc70253b0e65b20a83c7a585f35753986660d3442b8705bf66d04291f3cf4b056f6ffc1454f385bb11fee888c87d8204</hash>
+    <hash type="sha-1">203061d0438ed76f25573080f9d1f73f06de5851</hash>
+    <size>923</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-incubator/cf-routing-release?v=0.179.0</url>
+    <version>0.179.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-06-19T01:11:02Z</published>
+</metalink>
