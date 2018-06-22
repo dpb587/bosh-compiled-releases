@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="loggregator-agent-1.0-on-ubuntu-trusty-stemcell-3586.24.tgz">
+    <hash type="md5">1a09331829de2ecaee2237a9b5c89c8b</hash>
+    <hash type="sha-256">5805f7ed91da46cad7d67710217d801e5b7adca3921ae5570619a768b1cba336</hash>
+    <hash type="sha-512">082b966b3407a1abd133ebb7a05758eee67832fe217144cf11f4ed288139533af656744a34a42bb156d8bfde0710c7fbcdb63ab9b4b41e945909823cbe7591ca</hash>
+    <hash type="sha-1">fad0db560b44d59076898d49798f3120df61ad7f</hash>
+    <size>109453567</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/loggregator-agent-1.0-ubuntu-trusty-3586.24-20180618-230027-292476589.tgz</url>
+    <version>1.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-06-22T18:47:51Z</published>
+</metalink>
