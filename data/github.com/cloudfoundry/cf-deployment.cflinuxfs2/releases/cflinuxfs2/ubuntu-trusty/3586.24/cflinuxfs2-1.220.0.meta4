@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cflinuxfs2-1.220.0-on-ubuntu-trusty-stemcell-3586.24.tgz">
+    <hash type="md5">f6434074bfebb1bd84d5782373b6a720</hash>
+    <hash type="sha-256">26c3be780be1044e6efbeb89a703a5f11da6898c1aab3e5effbfbf2fc328179c</hash>
+    <hash type="sha-512">7a409e2af0065345eb25bf80c99c2f277d2dfcc838a446d3c65bdee1c8c9051b56b2e74d7b261cd49c6c23ec91d189b68b64db3476059d5f8ea713499fbcaab4</hash>
+    <hash type="sha-1">f87ce59cfa2415243e858b7bc12fa996ea8437f9</hash>
+    <size>282471785</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cflinuxfs2-1.220.0-ubuntu-trusty-3586.24-20180619-192842-569652591.tgz</url>
+    <version>1.220.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-06-22T18:45:50Z</published>
+</metalink>
