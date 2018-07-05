@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="routing-0.179.0-on-ubuntu-trusty-stemcell-3586.25.tgz">
+    <hash type="md5">fec74c62e000006094281c0e0fb1c7ca</hash>
+    <hash type="sha-256">1e8b703d619f78d0e4d89d0567cc4866544a98253327bcde91965cdc4bbd95dc</hash>
+    <hash type="sha-512">aadb8ec24ce2662b2ac116bfb2e611bb59e6975806071be59314dc902cd1019cc73bf5e4a08e45ca987d83f87dafb603703323fa83ace016a95d9c2a5de093a0</hash>
+    <hash type="sha-1">8aec61576486e0e81391e3670585fe99e321d2f8</hash>
+    <size>133812399</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/routing-0.179.0-ubuntu-trusty-3586.25-20180702-235910-591170768.tgz</url>
+    <version>0.179.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-05T16:04:16Z</published>
+</metalink>
