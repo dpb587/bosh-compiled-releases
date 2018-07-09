@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="go-buildpack-1.8.25.tgz">
+    <hash type="md5">3f18253fc8a87720ed8f5810284c4a46</hash>
+    <hash type="sha-256">e219b74fa56cc35d1e68c57858f4e0c24f3f86d6fad571cc73e3bef2bdf1f59f</hash>
+    <hash type="sha-512">fab778047227d0e24ef1dd427be6b872fed96d695fe08daf6a036950b62de6dbd4fe5e0ed808877f3c600dfb3b5ccb1f28ca174bcc83853f7754c10de54a945e</hash>
+    <hash type="sha-1">086c1a8eb48c5ce23dbbb45b6284a354d6617d92</hash>
+    <size>928</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/go-buildpack-release?v=1.8.25</url>
+    <version>1.8.25</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-09T15:52:10Z</published>
+</metalink>
