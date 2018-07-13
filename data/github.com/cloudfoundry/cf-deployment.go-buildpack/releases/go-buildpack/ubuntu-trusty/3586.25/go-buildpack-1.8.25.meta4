@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="go-buildpack-1.8.25-on-ubuntu-trusty-stemcell-3586.25.tgz">
-    <hash type="md5">6020d274c3178c771a8bb3cf77302771</hash>
-    <hash type="sha-256">2249fca6a393925c482480a7f57dc7f783fe3899c83bc61ac18e4296a486bd44</hash>
-    <hash type="sha-512">9bb9344dceced5a2311f59bc9348ab1cc92bdc5aaa79e609ecedcfacfec2ee719687f9078fa75a53100233565cfd8c2cc2f7fa5a17503a7dbe4a39136d9548f1</hash>
-    <hash type="sha-1">b79b9d0f09fe8841cd8553925542ca24793bf3fa</hash>
-    <size>3873380</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/go-buildpack-1.8.25-ubuntu-trusty-3586.25-20180705-213704-635482486.tgz</url>
+    <hash type="md5">bfc7cb70335b3364a0a7fda848bb069e</hash>
+    <hash type="sha-256">3c1da96e3f4a8dabbbde24f0c326f49d837a6cb1a553d90a5045103f43dd49e9</hash>
+    <hash type="sha-512">31aae5d7659b874b76446829a0769963de3938cb76dbbc1a6f244ab4b8e8c9095b7f4c8cf4ac09dae38fb33ff49d13179cc6afeb87d5e4cfb22e64bbe26be219</hash>
+    <hash type="sha-1">936d209b02e688d717e29aade35934f54894608f</hash>
+    <size>3873375</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/go-buildpack-1.8.25-ubuntu-trusty-3586.25-20180712-234132-139133122.tgz</url>
     <version>1.8.25</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2018-07-09T15:52:11Z</published>
+  <published>2018-07-13T19:00:06Z</published>
 </metalink>
