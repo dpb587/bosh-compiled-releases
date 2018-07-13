@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="loggregator-agent-2.0.tgz">
+    <hash type="md5">ca9c5edd9000db3ba8b8040a48d02829</hash>
+    <hash type="sha-256">c6e6cfa973641dea615a6035fb24396a053919f638bddd4735a0f3e24f38478c</hash>
+    <hash type="sha-512">cd13c260bf8c19d82d9ab93313db86ac0f096146ceff7cf8505441a80be1f3952f4615486eba7a13bf6bcc78457494df1fa8c60019677367fc93fefbdca51bf4</hash>
+    <hash type="sha-1">df91c31c15da68c7b2905645b20b93a930627d46</hash>
+    <size>930</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/loggregator-agent-release?v=2.0</url>
+    <version>2.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-13T19:00:45Z</published>
+</metalink>
