@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="diego-2.12.2-on-ubuntu-trusty-stemcell-3586.25.tgz">
+    <hash type="md5">99ae858b7ed9add8a6cdfb230380c23a</hash>
+    <hash type="sha-256">368af9ae3cf327e0aae6684284344f009fb7815f72e2a1f101203f4c9d285c09</hash>
+    <hash type="sha-512">9b8a069e276794abd03b46ad5ac32f77cf4f40f15d78d14230cd586871db72f0c3f0c7860734b66525bd5966c16fba63541af933cc62b69226e2de2266c1f3c7</hash>
+    <hash type="sha-1">3917957c1b04787d6fcd316ccb867efaa2f78d3d</hash>
+    <size>274926579</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/diego-2.12.2-ubuntu-trusty-3586.25-20180714-072033-78275472.tgz</url>
+    <version>2.12.2</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-17T19:58:49Z</published>
+</metalink>
