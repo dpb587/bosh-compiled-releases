@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="diego-2.13.0-on-ubuntu-trusty-stemcell-3586.26.tgz">
+    <hash type="md5">09da66779d5b9e0d31f11b2a2e381a94</hash>
+    <hash type="sha-256">86df8f19b424f2ac76cd5a02a57de1506a02672974a531f1d9df2e26d78195e2</hash>
+    <hash type="sha-512">68400ce64a9e46a388c373df082e09ad8235dc779bde619585699e036427292c207c9edba4349a4d577f16ad8535e2ce85dbd4867163afb1e0f5033222e9411d</hash>
+    <hash type="sha-1">191158c35ebd98d503284a2769f4988c4735eb28</hash>
+    <size>274943171</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/diego-2.13.0-ubuntu-trusty-3586.26-20180717-231108-681840234.tgz</url>
+    <version>2.13.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-19T20:49:22Z</published>
+</metalink>
