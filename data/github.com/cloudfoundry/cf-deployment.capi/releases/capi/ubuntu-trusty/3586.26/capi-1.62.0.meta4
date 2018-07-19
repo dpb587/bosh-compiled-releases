@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="capi-1.62.0-on-ubuntu-trusty-stemcell-3586.26.tgz">
+    <hash type="md5">a4c82b74b661d579ca5832314012f7dc</hash>
+    <hash type="sha-256">29497d074a7a09c947babfbb85eae870dde1bd3efefbbbae8e9ef0179dd67cc1</hash>
+    <hash type="sha-512">d3f10c9770429d012ec3b7f24bd1804fea33c74c11c01ccf70e3973ad620a298a82c7c27e4d19fd0fe8f5af8f3ad558d5c35b12b8291b581ff3930bbc9d65781</hash>
+    <hash type="sha-1">698c463393d64927b74343f5761a121a64aaa84b</hash>
+    <size>310584259</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/capi-1.62.0-ubuntu-trusty-3586.26-20180717-002205-396416878.tgz</url>
+    <version>1.62.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-19T20:47:21Z</published>
+</metalink>
