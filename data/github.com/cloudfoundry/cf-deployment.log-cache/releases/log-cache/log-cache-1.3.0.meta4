@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="log-cache-1.3.0.tgz">
+    <hash type="md5">8634e0e383845a3a851d627d8c3bcbd4</hash>
+    <hash type="sha-256">63e2f1b050f5e5497c0c225e457d2cf85289ff32f327d7e3b9596883e6208da0</hash>
+    <hash type="sha-512">e2077f26cd73afe6eda52afaca9cf72bf593fe3ee77cead9ac0a402f4081de58efb0862721f0d667fb1e07ff585329e559dd3fcfd250694a5867e229ae775e02</hash>
+    <hash type="sha-1">2fee0f51c4093091d33eb117202f7476f1a4ebcf</hash>
+    <size>916</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/log-cache-release?v=1.3.0</url>
+    <version>1.3.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-26T23:53:10Z</published>
+</metalink>
