@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bosh-dns-aliases-0.0.2-on--stemcell-.tgz">
+    <hash type="md5">f0366af9b5ea5c3d88d432354a55fee1</hash>
+    <hash type="sha-256">455dc935b9cae9b86f4ff8c8d7bebd510e2acfaf68ce67e7946c5707882e5b23</hash>
+    <hash type="sha-512">9b63acacf425e30ab627b06b404ba95e0f32942fadffa05859741b80ce76628a0915baec8355ea338e24b368b75181b11ff52aae82bb19618669f6eac6b13193</hash>
+    <hash type="sha-1">f8e6337d5872fde5eed5f5eac5f42b16baa37cf8</hash>
+    <size>1139</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/bosh-dns-aliases-0.0.2-ubuntu-trusty-3586.26-20180719-221037-144366167.tgz</url>
+    <version>0.0.2</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-26T23:53:19Z</published>
+</metalink>
