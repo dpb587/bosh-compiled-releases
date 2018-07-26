@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="silk-2.10.0-on-ubuntu-trusty-stemcell-3586.26.tgz">
+    <hash type="md5">4bbf6acb56837e8c225a95fbe3236494</hash>
+    <hash type="sha-256">cb3d1cb7a2fa6c24ea709d61b216f0f601b7efea3cce8040c284517ec88ebd02</hash>
+    <hash type="sha-512">48290930cbb502027950043d02bc7cee221d4911d734a30714c280e6e725189c9e543dcdf540c9d8b89dbbff313b8c2005b97686aa2060b517841231a01f0785</hash>
+    <hash type="sha-1">6fb8e6f8b954cc0cdb057038a8dea9b1f645e648</hash>
+    <size>153960046</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/silk-2.10.0-ubuntu-trusty-3586.26-20180720-171150-464321979.tgz</url>
+    <version>2.10.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-26T23:53:07Z</published>
+</metalink>
