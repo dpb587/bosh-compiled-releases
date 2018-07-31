@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="garden-runc-1.16.1-on-ubuntu-trusty-stemcell-3586.27.tgz">
+    <hash type="md5">7003026cea5357e77c991af5e878abed</hash>
+    <hash type="sha-1">3680178a4fdb98d9098082fa90af4e83cc8cde88</hash>
+    <hash type="sha-256">42edc86bb7c597fe1d63fff3fe7fe30c3fd892defa26fcc2e132beb3e1d12ddd</hash>
+    <hash type="sha-512">dd1a2f1f84591dc52ac7c5bc7365ad7752d0e255b778ff63f5c1ba7be8cb44d26faa12e5ee5e89b8bd3a67f44bfd3eaf9292c88447df46cff55b831aa68a4edf</hash>
+    <size>216064263</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/garden-runc/42edc86bb7c597fe1d63fff3fe7fe30c3fd892defa26fcc2e132beb3e1d12ddd</url>
+    <version>1.16.1</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-31T07:50:14Z</published>
+</metalink>
