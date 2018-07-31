@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="kubo-0.19.0-on-ubuntu-trusty-stemcell-3586.27.tgz">
+    <hash type="md5">cc00b94ffcc23fb94883063fc298f165</hash>
+    <hash type="sha-1">59a0f9f7aa66cc178e72b2ad3d31f477ea36d7a2</hash>
+    <hash type="sha-256">f6543f21ebc673ccfc4470208300146728aae492fd30609819bfad3640130886</hash>
+    <hash type="sha-512">b26b8daa29b72d7972ec53a3c49a4b3ec42c77919e6b21ee22829765b8b33987e42c1458a92830ddc2a4b479ba26c6eeb101e99e713d8c5fa7106e5e4495d66a</hash>
+    <size>412319357</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/kubo/f6543f21ebc673ccfc4470208300146728aae492fd30609819bfad3640130886</url>
+    <version>0.19.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-07-31T11:21:15Z</published>
+</metalink>
