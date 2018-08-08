@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="kubo-0.20.0.tgz">
+    <hash type="md5">eec48dc6fe0809cd6909df8c0396daa5</hash>
+    <hash type="sha-1">5a58d84c8498cae1c2687daebf4ad23078fcca67</hash>
+    <hash type="sha-256">a2a773c60a0e4d4deca32906a5bf53babc46b98e9cf08fc0f7786452c8732b51</hash>
+    <hash type="sha-512">632635102b4dd05530bad0c27f2e7aa365cddf53b76bd15925a4c78b982071d823a8731511dc1d4339fea3df70fad02cca017202f274c300d84875f3e9799186</hash>
+    <size>425399764</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-incubator/kubo-release?v=0.20.0</url>
+    <version>0.20.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-08T14:42:53Z</published>
+</metalink>
