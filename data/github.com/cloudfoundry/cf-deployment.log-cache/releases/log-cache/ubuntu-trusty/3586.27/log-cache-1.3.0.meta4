@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="log-cache-1.3.0-on-ubuntu-trusty-stemcell-3586.27.tgz">
+    <hash type="md5">fd7eda4fbf2fc90060d381dd8bdd32b5</hash>
+    <hash type="sha-256">d70b447d9249d0d5e6d11820bdf4dfe93fc42069ebdd11aa43691409f00443f4</hash>
+    <hash type="sha-512">a0730bd19aa809739522a68526a20a78c7618c3073a971dc775407d2225a1357f68e123c31ce2522b48862f9db543e950f29621bee5e6d62d4a2d795761d26a2</hash>
+    <hash type="sha-1">fb893843f236ed5099ba967ba096efc99af39d89</hash>
+    <size>152439052</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/log-cache-1.3.0-ubuntu-trusty-3586.27-20180808-213345-284241353.tgz</url>
+    <version>1.3.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-09T21:20:49Z</published>
+</metalink>
