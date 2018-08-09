@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="staticfile-buildpack-1.4.29-on-ubuntu-trusty-stemcell-3586.27.tgz">
+    <hash type="md5">bcaedafd556f78fcdd6491b44431f83d</hash>
+    <hash type="sha-256">b33315809fe1ec7f8131e5bd201859743f9f95a5a9cee573690c4b0de2bc8e48</hash>
+    <hash type="sha-512">32f303929c398dc392f7b8708aa8d0201eb3c0a97ea36a9e249efa83e661099d384b86e88df5761f055dec14dad3d55eadcca6f03aa8b4f6a6356ec689299fbe</hash>
+    <hash type="sha-1">5aba6253f2833f00866443504ac079ff00f829f2</hash>
+    <size>4278137</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/staticfile-buildpack-1.4.29-ubuntu-trusty-3586.27-20180731-233855-069396881.tgz</url>
+    <version>1.4.29</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-09T21:20:11Z</published>
+</metalink>
