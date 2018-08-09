@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-smoke-tests-40.0.6.tgz">
+    <hash type="md5">6f5a04313e03d5d7296478eff4465d43</hash>
+    <hash type="sha-256">f9f86414771a7e10eb93ce7e0c44d054fd0b39e084799633335e44e939f035f9</hash>
+    <hash type="sha-512">cdb6a4ddf90fde4203394591932037c732eb9a041404612721f8265f116559b5dd9d1f4d6208256e81016fa19b967b0666e96285d730e30f195b02d2522158ca</hash>
+    <hash type="sha-1">df727e63fb046c694098527845a2a0294b257635</hash>
+    <size>930</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/cf-smoke-tests-release?v=40.0.6</url>
+    <version>40.0.6</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-09T21:18:01Z</published>
+</metalink>
