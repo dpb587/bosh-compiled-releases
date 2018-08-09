@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bpm-0.9.0-on-ubuntu-trusty-stemcell-3586.27.tgz">
+    <hash type="md5">bd3d6770b4db359149257b8ab3bc0bb9</hash>
+    <hash type="sha-256">898a72725fbf1de38f5e20682ae377663cac3940b3576f239b9c1d8cc3b51982</hash>
+    <hash type="sha-512">fb5b1a94d877da516ec79c62fe91983d3efcd542e7df432877b048300788ab53b6e10496cfe3e484052c608ae4df45afc4c4a8351bf4430c60c274d1e13cda3a</hash>
+    <hash type="sha-1">dcd4f0b2a4060be214a0a70f6de011c76393b2c8</hash>
+    <size>144582316</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/bpm-0.9.0-ubuntu-trusty-3586.27-20180731-234110-129787176.tgz</url>
+    <version>0.9.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-09T21:15:40Z</published>
+</metalink>
