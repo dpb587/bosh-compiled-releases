@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="prometheus-v22.0.1-on-ubuntu-trusty-stemcell-3586.35.tgz">
+    <hash type="md5">9e233963045c8beeebe60b01572c0556</hash>
+    <hash type="sha-1">220c79b05682219be890451d5af3cd2928e3c69b</hash>
+    <hash type="sha-256">a6f99f95f3cc4b7dc151338da1a734ed7a725097e830f03d1cba546d2a0ab3b3</hash>
+    <hash type="sha-512">b7cda3693cce5c5334b0e6152cd1bcd4839253a791e4d72f7c5d23e9df5d2c16ec66628fa310ce6f300cfff121cb19fd8dbcf8183ff08656793f79806107c1aa</hash>
+    <size>343560424</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/prometheus/a6f99f95f3cc4b7dc151338da1a734ed7a725097e830f03d1cba546d2a0ab3b3</url>
+    <version>v22.0.1</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-15T01:18:56Z</published>
+</metalink>
