@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="postgres-29-on-ubuntu-trusty-stemcell-3586.36.tgz">
+    <hash type="md5">fe1721fea1c1ceef59cb4940bf89ee29</hash>
+    <hash type="sha-1">07c00fd94e2a7d80582cba4c9938c59d65f4bae3</hash>
+    <hash type="sha-256">15f31022943f8b73eb1e0404fdd02bab58ded78f131c26a217b45a311ab72ec7</hash>
+    <hash type="sha-512">d5f6fba4fa59f9563fa13c3fd2a9ad480589feea3835bda2e16cc7301655d3ce7384ebb4bd1e2923308e8d77fc6401f24efb355056bdb7454d71f89d2fda5dba</hash>
+    <size>8909009</size>
+    <url>https://s3-external-1.amazonaws.com/dpb587-bosh-compiled-releases-us-east-1/postgres/15f31022943f8b73eb1e0404fdd02bab58ded78f131c26a217b45a311ab72ec7</url>
+    <version>29</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-16T01:32:47Z</published>
+</metalink>
