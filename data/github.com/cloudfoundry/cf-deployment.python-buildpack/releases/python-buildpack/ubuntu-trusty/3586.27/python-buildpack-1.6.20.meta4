@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="python-buildpack-1.6.20-on-ubuntu-trusty-stemcell-3586.27.tgz">
+    <hash type="md5">231f9f3e708fbb9b2a1d56fe433b8176</hash>
+    <hash type="sha-256">2b3884e8247f121a79ea775883025880aa730d940f8590fd81f3654494db10e6</hash>
+    <hash type="sha-512">3fe428d63b0e23b09c9be6962d796fee2bfdb31ff1e0678a32e1297b3b56098f5fa832cc83cc0d2e1d64445042d2c4f22bf735d363aa8dc3b71071ea7f53034e</hash>
+    <hash type="sha-1">18315d5d4287b7d92f278d4543cefa66ee21a492</hash>
+    <size>7808139</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/python-buildpack-1.6.20-ubuntu-trusty-3586.27-20180809-183110-499871835.tgz</url>
+    <version>1.6.20</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-16T00:11:20Z</published>
+</metalink>
