@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="bpm-0.11.0.tgz">
+    <hash type="md5">c571aa52868aa483d17fd0e7b0b05f26</hash>
+    <hash type="sha-256">4c17c758ea7b9c1b91324286bc3d6eebbd7de6c50d76e6ac6db19efc24d3337c</hash>
+    <hash type="sha-512">e1877cb7a8ad01a4b9b44ce73d4f4befa02b62103ee293a8fa029be414961e1a1b0560691951d43c563f87164f49e25dac24070f0b0c719269491c98ff1aa149</hash>
+    <hash type="sha-1">c9a0887a9dd02ae8d2dbab6f17db3c6a6bac5aad</hash>
+    <size>907</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry-incubator/bpm-release?v=0.11.0</url>
+    <version>0.11.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-21T00:51:33Z</published>
+</metalink>
