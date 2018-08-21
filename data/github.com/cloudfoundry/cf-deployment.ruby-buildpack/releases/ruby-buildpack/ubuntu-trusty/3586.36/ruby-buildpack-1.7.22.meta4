@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="ruby-buildpack-1.7.22-on-ubuntu-trusty-stemcell-3586.36.tgz">
+    <hash type="md5">581eb77407bcd2b18c00cfc4fe98f0c3</hash>
+    <hash type="sha-256">02f4c9faa30d8beb85d4cf7a5100dd825dac3698d287b5526780ed6a2e76ab13</hash>
+    <hash type="sha-512">ca99ca2cdc56210db34e1765a24b15fbc3d4d28f53f22621c6272daf7a77216f58c96c383a7495b614a0eea6298dced1b316f6173398f915093209acfe01a11a</hash>
+    <hash type="sha-1">8952e9227d394a7e886a0c17bb84829b4fdfc480</hash>
+    <size>7849105</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/ruby-buildpack-1.7.22-ubuntu-trusty-3586.36-20180817-010721-381103493.tgz</url>
+    <version>1.7.22</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-21T00:54:52Z</published>
+</metalink>
