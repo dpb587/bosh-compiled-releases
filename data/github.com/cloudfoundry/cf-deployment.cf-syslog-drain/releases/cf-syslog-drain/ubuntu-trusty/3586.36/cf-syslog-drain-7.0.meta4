@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-syslog-drain-7.0-on-ubuntu-trusty-stemcell-3586.36.tgz">
+    <hash type="md5">ff27f958a9a607e9c3209587f7654c1f</hash>
+    <hash type="sha-256">bd3de51a8597a9054b911f314c434804c5aec9ee5e675d1e0eecc2f2c51aa38d</hash>
+    <hash type="sha-512">f34c192299a5792b84e69aaf8b53f6606624706272c49b0464417164dcc8a94494a5986f27521306d938d365e55466dff3a75a518d6b57106fd4010c58e045b4</hash>
+    <hash type="sha-1">196a97704e19d14d68d6ef7d8e015cd12d2b4bcc</hash>
+    <size>130045665</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-syslog-drain-7.0-ubuntu-trusty-3586.36-20180817-010858-875104953.tgz</url>
+    <version>7.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-21T00:53:08Z</published>
+</metalink>
