@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="silk-2.14.0.tgz">
+    <hash type="md5">d801c636e38d6a64d2c2a8ec3a5d7c7b</hash>
+    <hash type="sha-256">4935ee2b885b9053310bf9b2ad09c91e296016aa964b9a32ee6d166f9edaeda6</hash>
+    <hash type="sha-512">6068400849b8b5baf826a2b674c95780d97fa11d2ea99efa0f464c0459675daca8a428dabf2a0f2a1cb03053569abb8d29f6227a95970109cc12040abf916111</hash>
+    <hash type="sha-1">48bce6d6bbb1123c279ce4e979a94f9535d5661a</hash>
+    <size>908</size>
+    <url>https://bosh.io/d/github.com/cloudfoundry/silk-release?v=2.14.0</url>
+    <version>2.14.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-24T00:01:11Z</published>
+</metalink>
