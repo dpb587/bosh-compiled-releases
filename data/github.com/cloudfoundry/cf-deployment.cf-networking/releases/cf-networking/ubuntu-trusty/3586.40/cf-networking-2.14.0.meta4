@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="cf-networking-2.14.0-on-ubuntu-trusty-stemcell-3586.40.tgz">
+    <hash type="md5">d735c852c30bc142e5b1bdf3e6519ccf</hash>
+    <hash type="sha-256">aa77940dab62e040f2e0038379ee0bf11a6145be662449517c1bfb14b8cc0d7f</hash>
+    <hash type="sha-512">31fbf6cf59b49d38c412c4cce5122faf8b2cc3f06b0bef4f6ebc438763645a21cb429f213970ba2047b78a30c53f44ae1b31abfff52b82824f6bcd85b1295d3d</hash>
+    <hash type="sha-1">57248830b7ed0144cc650c8ee92c6df022e02d6c</hash>
+    <size>154566631</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/cf-networking-2.14.0-ubuntu-trusty-3586.40-20180828-164642-333558797.tgz</url>
+    <version>2.14.0</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-30T22:34:15Z</published>
+</metalink>
