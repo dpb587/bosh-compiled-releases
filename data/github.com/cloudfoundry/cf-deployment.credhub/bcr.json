@@ -1,0 +1,1 @@
+{"name":"credhub","version":"1.9.5","source":{"digest":"2390e855f092b0fb9c58f9cb88853ea938e87a3e"},"stemcell":{"os":"ubuntu-trusty","version":"3586.40"},"tarball":{"digest":"07a79cec9b66630f83306b0b45f39a9596aa358f","url":"https://storage.googleapis.com/cf-deployment-compiled-releases/credhub-1.9.5-ubuntu-trusty-3586.40-20180828-231505-101189701.tgz"}}
