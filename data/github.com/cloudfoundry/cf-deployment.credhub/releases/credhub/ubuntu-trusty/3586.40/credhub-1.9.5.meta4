@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="credhub-1.9.5-on-ubuntu-trusty-stemcell-3586.40.tgz">
+    <hash type="md5">c2526ab70bb683062a073c83f5bb935b</hash>
+    <hash type="sha-256">71c3926cd2d5b7df03ef83432a1827233627c1d46bc4e327c78da50af4206e90</hash>
+    <hash type="sha-512">94c0400c2281369b52bff681a33326a6accf62256df2288f074ba3bc76c190dacb4329f14e02a6e3764a8fa7ae8ecf81a744866963349addb8adcc101b3c76ac</hash>
+    <hash type="sha-1">07a79cec9b66630f83306b0b45f39a9596aa358f</hash>
+    <size>210638748</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/credhub-1.9.5-ubuntu-trusty-3586.40-20180828-231505-101189701.tgz</url>
+    <version>1.9.5</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-30T22:35:13Z</published>
+</metalink>
