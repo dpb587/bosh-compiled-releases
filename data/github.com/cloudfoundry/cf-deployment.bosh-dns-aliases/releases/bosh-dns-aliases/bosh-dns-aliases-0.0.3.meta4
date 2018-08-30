@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metalink xmlns="urn:ietf:params:xml:ns:metalink">
   <file name="bosh-dns-aliases-0.0.3-on--stemcell-.tgz">
-    <hash type="md5">93e812740fd5c73923ef03f4f8e37042</hash>
-    <hash type="sha-256">6fd6658f9860ab564fb956338d5ec66a4cfad6c0d94167f946171ce6c8517e51</hash>
-    <hash type="sha-512">115149cc03a5f6d9f37556eb598bdbff9f7991b26cbec7ca7b5e950ba21f916fbc0924fcfc615c6a2958a4a87d07d44a0f54108c709f76322b993b25637802be</hash>
-    <hash type="sha-1">f66463e58aecae45869531e406f166c692fc3873</hash>
-    <size>1716</size>
-    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/bosh-dns-aliases-0.0.3-ubuntu-trusty-3586.36-20180817-010650-301354517.tgz</url>
+    <hash type="md5">26f124efae8142b4786a9043fa24500b</hash>
+    <hash type="sha-256">3f924bd77ee6cbfc1375619b322ab51de57a4dc41102d493c8e481ec5bc80002</hash>
+    <hash type="sha-512">ef367abc4a9a319df352404910b1ff081e18c638b6d0c36ccb3eb5fc413f5db2fbdc99158fdeb4417263f1101ff773d4390e90cc7024a3b71a7902401f863b62</hash>
+    <hash type="sha-1">fd01a4f2a97d832e422abe7b6f2a1ad1f7f51d35</hash>
+    <size>1722</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/bosh-dns-aliases-0.0.3-ubuntu-trusty-3586.40-20180828-163618-291036673.tgz</url>
     <version>0.0.3</version>
   </file>
   <generator>metalink.dpb587.github.io/0.0.0</generator>
-  <published>2018-08-27T22:06:00Z</published>
+  <published>2018-08-30T22:37:33Z</published>
 </metalink>
