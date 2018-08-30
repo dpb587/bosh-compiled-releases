@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+  <file name="php-buildpack-4.3.59-on-ubuntu-trusty-stemcell-3586.40.tgz">
+    <hash type="md5">e3de808cf39b5c61fdd2c676f975251c</hash>
+    <hash type="sha-256">a4965448359c250365d02f0ffee63e076c9446eaf30932474f97c56aebbb4706</hash>
+    <hash type="sha-512">87f27488e862d535ccf39515e2ddfd8f837dadd6fae85e46393aa368497d611c4390fdefb78785553ffdf0dd7496d36803afed34fc6e3856da8df43fe309c6ae</hash>
+    <hash type="sha-1">818856bb516819dad7cc288a1fbc6f336c2d459d</hash>
+    <size>1091868</size>
+    <url>https://storage.googleapis.com/cf-deployment-compiled-releases/php-buildpack-4.3.59-ubuntu-trusty-3586.40-20180828-164303-219170652.tgz</url>
+    <version>4.3.59</version>
+  </file>
+  <generator>metalink.dpb587.github.io/0.0.0</generator>
+  <published>2018-08-30T22:36:17Z</published>
+</metalink>
